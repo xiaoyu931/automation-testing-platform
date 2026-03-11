@@ -5,12 +5,19 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.webdriver.edge.service import Service as EdgeService
+import os
 
 class DriverManager:
 
     # 创建一个专门管理浏览器的类
     @staticmethod
     def create_driver(browser: str = "chrome", headless: bool = False):
+
+        # 如果在 CI 环境，强制使用 Chrome headless
+        if os.getenv("CI"):
+            browser = "chrome"
+            headless = True
+
         try:
             if browser == "chrome":
                 # 创建浏览器参数对象
@@ -18,6 +25,8 @@ class DriverManager:
                 # 若为False , 无头运行（没有界面） 常用于 CI/CD 服务器
                 if headless:
                     options.add_argument("--headless=new")
+                    options.add_argument("--no-sandbox")
+                    options.add_argument("--disable-dev-shm-usage")
                 # 浏览器启动参数  启动时最大化
                 options.add_argument("--start-maximized")
                 # 禁止“Chrome 正受到自动化控制”提示
