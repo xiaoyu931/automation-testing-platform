@@ -1,0 +1,9 @@
+logout_cases:
+
+  - username: standard_user
+    password: secret_sauce
+    expected: true
+
+  - username: standard_user
+    password: secret_sauce
+    expected: true

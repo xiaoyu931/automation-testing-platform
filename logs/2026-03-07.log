@@ -1,0 +1,869 @@
+2026-03-07 08:48:34,259 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-07 08:48:34,260 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-07 08:48:44,110 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 08:48:52,014 | ERROR | error_handler | Test Failed
+2026-03-07 08:48:52,015 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 08:48:52,015 | ERROR | error_handler | Exception Message: assert False
+2026-03-07 08:48:52,015 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 08:48:52,120 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260307_084852.png
+2026-03-07 08:48:58,853 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 08:49:15,910 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 08:49:38,491 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 08:50:05,765 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 08:50:17,402 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 08:50:17,559 | ERROR | automation | [Retry] tests.test_open_saucedemo::test_login_success failed after 2 attempts
+2026-03-07 08:50:17,607 | ERROR | error_handler | Test Failed
+2026-03-07 08:50:17,607 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 08:50:17,607 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-07 08:50:17,607 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 08:50:17,767 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260307_085017.png
+2026-03-07 09:04:14,187 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-07 09:04:14,187 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-07 09:04:21,679 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 09:04:27,865 | ERROR | error_handler | Test Failed
+2026-03-07 09:04:27,866 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 09:04:27,866 | ERROR | error_handler | Exception Message: assert False
+2026-03-07 09:04:27,866 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 09:04:28,343 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260307_090427.png
+2026-03-07 09:04:35,660 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:04:53,450 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:05:10,490 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:05:37,659 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:05:48,955 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:05:49,071 | ERROR | automation | [Retry] tests.test_open_saucedemo::test_login_success failed after 2 attempts
+2026-03-07 09:05:49,086 | ERROR | error_handler | Test Failed
+2026-03-07 09:05:49,086 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 09:05:49,086 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:05:49,087 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:05:49,256 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260307_090549.png
+2026-03-07 09:15:42,203 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-07 09:15:42,204 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-07 09:15:50,247 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 09:15:56,810 | ERROR | error_handler | Test Failed
+2026-03-07 09:15:56,810 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 09:15:56,810 | ERROR | error_handler | Exception Message: assert False
+2026-03-07 09:15:56,810 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 09:15:56,944 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260307_091556.png
+2026-03-07 09:16:04,436 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:16:21,718 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:16:40,488 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:17:07,184 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:17:18,504 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:17:18,619 | ERROR | automation | [Retry] tests.test_open_saucedemo::test_login_success failed after 2 attempts
+2026-03-07 09:17:18,648 | ERROR | error_handler | Test Failed
+2026-03-07 09:17:18,648 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 09:17:18,648 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:17:18,649 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:17:18,774 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260307_091718.png
+2026-03-07 09:24:54,513 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-07 09:24:54,513 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-07 09:25:02,153 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 09:25:09,340 | ERROR | error_handler | Test Failed
+2026-03-07 09:25:09,341 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 09:25:09,341 | ERROR | error_handler | Exception Message: assert False
+2026-03-07 09:25:09,341 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 09:25:09,477 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260307_092509.png
+2026-03-07 09:25:16,542 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:25:34,523 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:25:51,748 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:26:18,564 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:26:30,148 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-07 09:26:30,310 | ERROR | automation | [Retry] tests.test_open_saucedemo::test_login_success failed after 2 attempts
+2026-03-07 09:26:30,326 | ERROR | error_handler | Test Failed
+2026-03-07 09:26:30,326 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 09:26:30,326 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:26:30,327 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:26:30,469 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260307_092630.png
+2026-03-07 09:33:09,694 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-07 09:33:09,695 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-07 09:33:18,023 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 09:33:24,593 | ERROR | error_handler | Test Failed
+2026-03-07 09:33:24,594 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 09:33:24,594 | ERROR | error_handler | Exception Message: assert False
+2026-03-07 09:33:24,594 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 09:33:24,895 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260307_093324.png
+2026-03-07 09:33:32,973 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:33:51,115 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:34:10,027 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 09:34:46,501 | ERROR | error_handler | Test Failed
+2026-03-07 09:34:46,501 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 09:34:46,501 | ERROR | error_handler | Exception Message: Message: timeout: Timed out receiving message from renderer: 29.076
+2026-03-07 09:34:46,501 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 09:34:46,634 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260307_093446.png
+2026-03-07 10:22:45,009 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:22:45,117 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:22:45,144 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:22:45,298 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:22:45,438 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:22:52,312 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:22:52,393 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:22:52,415 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:22:52,547 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:22:52,648 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:23:00,816 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:23:00,898 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:23:00,919 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:23:01,059 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:23:01,147 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:23:39,157 | ERROR | error_handler | Test Failed
+2026-03-07 10:23:39,158 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:23:39,158 | ERROR | error_handler | Exception Message: Message: timeout: Timed out receiving message from renderer: 29.918
+2026-03-07 10:23:39,158 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:23:39,284 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_assertion_failure_test_assertion_failure_20260307_102339.png
+2026-03-07 10:23:46,681 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:23:46,783 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:23:46,806 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:23:46,947 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:23:57,554 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:24:08,918 | WARNING | automation | [Retry] safe_click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:24:09,060 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data0] failed after 2 attempts
+2026-03-07 10:24:09,105 | ERROR | error_handler | Test Failed
+2026-03-07 10:24:09,105 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:24:09,105 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:24:09,105 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:24:09,251 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data0]_20260307_102409.png
+2026-03-07 10:24:16,693 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:24:16,792 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:24:16,818 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:24:16,973 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:24:27,087 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:24:38,326 | WARNING | automation | [Retry] safe_click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:24:38,469 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data1] failed after 2 attempts
+2026-03-07 10:24:38,480 | ERROR | error_handler | Test Failed
+2026-03-07 10:24:38,481 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:24:38,481 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:24:38,481 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:24:38,621 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data1]_20260307_102438.png
+2026-03-07 10:24:46,465 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:24:46,555 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:24:46,577 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:24:46,704 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:24:56,921 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:25:08,333 | WARNING | automation | [Retry] safe_click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:25:08,603 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data2] failed after 2 attempts
+2026-03-07 10:25:08,619 | ERROR | error_handler | Test Failed
+2026-03-07 10:25:08,620 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:25:08,620 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:25:08,620 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:25:08,762 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data2]_20260307_102508.png
+2026-03-07 10:25:15,863 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:25:15,926 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:25:15,960 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:25:16,103 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:25:26,372 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:25:38,097 | WARNING | automation | [Retry] safe_click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:25:38,236 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data3] failed after 2 attempts
+2026-03-07 10:25:38,245 | ERROR | error_handler | Test Failed
+2026-03-07 10:25:38,245 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:25:38,245 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:25:38,245 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:25:38,396 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data3]_20260307_102538.png
+2026-03-07 10:25:45,534 | ERROR | error_handler | Test Failed
+2026-03-07 10:25:45,534 | ERROR | error_handler | Exception Type: NoSuchElementException
+2026-03-07 10:25:45,534 | ERROR | error_handler | Exception Message: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="element_not_exist"]"}
+2026-03-07 10:25:45,534 | ERROR | error_handler | [LOCATOR_ERROR] Element not found
+2026-03-07 10:25:49,856 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_element_failure_test_element_failure_20260307_102545.png
+2026-03-07 10:26:01,593 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:01,692 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:01,715 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:01,897 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-07 10:26:08,337 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:08,469 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:08,490 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:08,616 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-07 10:26:16,492 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:16,560 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:16,599 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:16,727 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-07 10:26:24,031 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:24,138 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:24,162 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:24,286 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:26:31,293 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:31,396 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:31,419 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:41,950 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:26:49,633 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:26:49,713 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:26:49,733 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:26:59,886 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:27:06,724 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:27:06,843 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:27:06,870 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:27:17,460 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:27:25,785 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:27:25,902 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:27:25,929 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:27:36,575 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:27:45,448 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:27:45,540 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:27:45,563 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:27:45,731 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-07 10:27:45,810 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:27:45,828 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: element not interactable
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91bee
+	0xcdd354
+	0xcd1e88
+	0xcfea3c
+	0xcd18c4
+	0xcfec04
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:27:47,050 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:27:54,026 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:27:54,132 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:27:54,162 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:27:54,332 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-07 10:27:54,424 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:27:54,444 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: element not interactable
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91bee
+	0xcdd354
+	0xcd1e88
+	0xcfea3c
+	0xcd18c4
+	0xcfec04
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:27:55,695 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:28:02,750 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:28:02,838 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:28:02,863 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:28:03,020 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:28:03,150 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:28:10,822 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:28:10,939 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:28:10,968 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:28:11,158 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:28:11,274 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:28:19,588 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:28:19,679 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:28:19,702 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:28:19,846 | INFO | automation | Safe click: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:28:19,941 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:28:28,157 | ERROR | error_handler | Test Failed
+2026-03-07 10:28:28,157 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:28:28,157 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:28:28,157 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:28:28,258 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_timeout_failure_test_timeout_failure_20260307_102828.png
+2026-03-07 10:42:15,159 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:15,276 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:15,304 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:15,475 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:42:15,570 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:42:23,738 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:23,834 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:23,858 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:24,015 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:42:24,123 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:42:31,601 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:31,738 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:31,761 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:31,912 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:42:32,018 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-07 10:42:38,993 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:39,127 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:39,153 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:39,492 | ERROR | error_handler | Test Failed
+2026-03-07 10:42:39,492 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-07 10:42:39,492 | ERROR | error_handler | Exception Message: Intentional assertion failure
+2026-03-07 10:42:39,492 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-07 10:42:39,658 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_assertion_failure_test_assertion_failure_20260307_104239.png
+2026-03-07 10:42:46,946 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:47,068 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:47,094 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:47,272 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:42:47,404 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-07 10:42:47,501 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-07 10:42:47,644 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-07 10:42:47,723 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-07 10:42:47,825 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-07 10:42:47,850 | INFO | automation | Click element: ('id', 'continue')
+2026-03-07 10:42:47,940 | INFO | automation | Click element: ('id', 'finish')
+2026-03-07 10:42:48,012 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-07 10:42:55,307 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:42:55,414 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:42:55,432 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:42:55,573 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:42:55,686 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-07 10:42:55,790 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-07 10:42:55,936 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-07 10:42:56,030 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-07 10:42:56,127 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-07 10:42:56,154 | INFO | automation | Click element: ('id', 'continue')
+2026-03-07 10:43:06,616 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:43:18,061 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:43:18,146 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data1] failed after 2 attempts
+2026-03-07 10:43:18,175 | ERROR | error_handler | Test Failed
+2026-03-07 10:43:18,175 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:43:18,175 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:43:18,175 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:43:18,284 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data1]_20260307_104318.png
+2026-03-07 10:43:25,744 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:43:25,878 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:43:25,905 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:43:26,054 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:43:26,200 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-07 10:43:26,310 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-07 10:43:26,473 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-07 10:43:26,550 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-07 10:43:26,649 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-07 10:43:26,679 | INFO | automation | Click element: ('id', 'continue')
+2026-03-07 10:43:37,129 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:43:48,682 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:43:48,762 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data2] failed after 2 attempts
+2026-03-07 10:43:48,787 | ERROR | error_handler | Test Failed
+2026-03-07 10:43:48,788 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:43:48,788 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:43:48,788 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:43:48,887 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data2]_20260307_104348.png
+2026-03-07 10:43:56,163 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:43:56,603 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:43:56,634 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:43:57,122 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:43:57,243 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-07 10:43:57,346 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-07 10:43:57,516 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-07 10:43:57,606 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-07 10:43:57,678 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-07 10:43:57,708 | INFO | automation | Click element: ('id', 'continue')
+2026-03-07 10:44:08,088 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:44:19,277 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91db0
+	0xcdc20a
+	0xcdc4ab
+	0xd1de32
+	0xcfea84
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:44:19,398 | ERROR | automation | [Retry] tests.test_checkout::test_checkout[test_data3] failed after 2 attempts
+2026-03-07 10:44:19,410 | ERROR | error_handler | Test Failed
+2026-03-07 10:44:19,410 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:44:19,410 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:44:19,410 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:44:19,511 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_checkout_test_checkout[test_data3]_20260307_104419.png
+2026-03-07 10:44:26,637 | ERROR | error_handler | Test Failed
+2026-03-07 10:44:26,640 | ERROR | error_handler | Exception Type: NoSuchElementException
+2026-03-07 10:44:26,640 | ERROR | error_handler | Exception Message: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="element_not_exist"]"}
+2026-03-07 10:44:26,640 | ERROR | error_handler | [LOCATOR_ERROR] Element not found
+2026-03-07 10:44:26,775 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_element_failure_test_element_failure_20260307_104426.png
+2026-03-07 10:44:39,327 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:44:39,443 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:44:39,470 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:44:39,620 | ERROR | error_handler | Test Failed
+2026-03-07 10:44:39,621 | ERROR | error_handler | Exception Type: AttributeError
+2026-03-07 10:44:39,621 | ERROR | error_handler | Exception Message: 'InventoryPage' object has no attribute 'get_product_count'
+2026-03-07 10:44:39,621 | ERROR | error_handler | [UNKNOWN_ERROR] Unhandled exception
+2026-03-07 10:44:39,824 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_inventory_test_inventory[test_data0]_20260307_104439.png
+2026-03-07 10:44:47,042 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:44:47,150 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:44:47,176 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:44:47,324 | ERROR | error_handler | Test Failed
+2026-03-07 10:44:47,324 | ERROR | error_handler | Exception Type: AttributeError
+2026-03-07 10:44:47,324 | ERROR | error_handler | Exception Message: 'InventoryPage' object has no attribute 'get_product_count'
+2026-03-07 10:44:47,324 | ERROR | error_handler | [UNKNOWN_ERROR] Unhandled exception
+2026-03-07 10:44:47,495 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_inventory_test_inventory[test_data1]_20260307_104447.png
+2026-03-07 10:45:05,391 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:45:05,480 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:45:05,499 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:45:05,609 | ERROR | error_handler | Test Failed
+2026-03-07 10:45:05,614 | ERROR | error_handler | Exception Type: AttributeError
+2026-03-07 10:45:05,614 | ERROR | error_handler | Exception Message: 'InventoryPage' object has no attribute 'get_product_count'
+2026-03-07 10:45:05,614 | ERROR | error_handler | [UNKNOWN_ERROR] Unhandled exception
+2026-03-07 10:45:05,801 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_inventory_test_inventory[test_data2]_20260307_104505.png
+2026-03-07 10:45:13,623 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:45:13,762 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:45:13,788 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:45:13,914 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:45:27,000 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:45:27,117 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:45:27,141 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:45:37,497 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:45:45,000 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:45:45,082 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:45:45,104 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:45:55,363 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:46:02,513 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:46:02,632 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:46:02,655 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:46:12,942 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:46:19,953 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:46:20,029 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:46:20,051 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:46:30,327 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-07 10:46:40,722 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:46:40,813 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:46:40,833 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:46:40,970 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-07 10:46:41,033 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:46:41,049 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: element not interactable
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91bee
+	0xcdd354
+	0xcd1e88
+	0xcfea3c
+	0xcd18c4
+	0xcfec04
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:46:42,239 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:46:51,726 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:46:51,827 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:46:51,849 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:46:51,979 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-07 10:46:52,059 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:46:52,069 | WARNING | automation | [Retry] safe_click failed (attempt 1/2) -> Message: element not interactable
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xe87dd3
+	0xe87e14
+	0xc91bee
+	0xcdd354
+	0xcd1e88
+	0xcfea3c
+	0xcd18c4
+	0xcfec04
+	0xd1b621
+	0xcfe7d6
+	0xcd0049
+	0xcd0e04
+	0x10e6924
+	0x10e1bf7
+	0x10ff5a0
+	0xea0f58
+	0xea891d
+	0xe90648
+	0xe90812
+	0xe7a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-07 10:46:53,277 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-07 10:47:00,051 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:47:00,173 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:47:00,197 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:47:00,353 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:47:00,445 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:47:07,340 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:47:07,428 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:47:07,448 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:47:07,586 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:47:07,674 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:47:14,092 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-07 10:47:14,190 | INFO | automation | Input text into ('id', 'password')
+2026-03-07 10:47:14,213 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-07 10:47:14,355 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-07 10:47:14,458 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-07 10:47:23,770 | ERROR | error_handler | Test Failed
+2026-03-07 10:47:23,770 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-07 10:47:23,770 | ERROR | error_handler | Exception Message: Message: 
+2026-03-07 10:47:23,770 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-07 10:47:23,885 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_timeout_failure_test_timeout_failure_20260307_104723.png

@@ -1,0 +1,9 @@
+remove_cases:
+
+  - username: standard_user
+    password: secret_sauce
+    expected_cart_count: 0
+
+  - username: standard_user
+    password: secret_sauce
+    expected_cart_count: 0

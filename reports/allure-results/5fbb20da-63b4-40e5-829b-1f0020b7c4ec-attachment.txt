@@ -1,0 +1,11 @@
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'user-name')
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'password')
+[32mINFO    [0m automation:base_page.py:74 Safe click: ('id', 'login-button')
+[32mINFO    [0m automation:base_page.py:51 Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+[32mINFO    [0m automation:base_page.py:51 Click element: ('class name', 'shopping_cart_link')
+[32mINFO    [0m automation:base_page.py:51 Click element: ('id', 'checkout')
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'first-name')
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'last-name')
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'postal-code')
+[32mINFO    [0m automation:base_page.py:51 Click element: ('id', 'continue')
+[32mINFO    [0m automation:assert_utils.py:27 [ASSERT PASS] Checkout validation

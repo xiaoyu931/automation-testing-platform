@@ -1,0 +1,64 @@
+2026-02-25 23:30:14,688 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:30:14,688 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-25 23:30:14,688 | ERROR | error_handler | Exception Message: assert False
+2026-02-25 23:30:14,688 | ERROR | error_handler | Business assertion failed.
+2026-02-25 23:30:18,257 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:30:18,257 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:30:18,257 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:30:18,257 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:30:21,808 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:30:21,808 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:30:21,808 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:30:21,808 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:30:25,562 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:30:25,564 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:30:25,564 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:30:25,564 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:30:29,904 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:30:29,904 | ERROR | error_handler | Exception Type: TypeError
+2026-02-25 23:30:29,904 | ERROR | error_handler | Exception Message: LoginPage.__init__() missing 1 required positional argument: 'settings'
+2026-02-25 23:30:29,904 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:30:32,246 | INFO | error_handler | This is a test log
+2026-02-25 23:36:10,535 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:36:10,535 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-25 23:36:10,535 | ERROR | error_handler | Exception Message: assert False
+2026-02-25 23:36:10,535 | ERROR | error_handler | Business assertion failed.
+2026-02-25 23:36:14,157 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:36:14,157 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:36:14,157 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:36:14,157 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:36:17,701 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:36:17,701 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:36:17,701 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:36:17,701 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:36:21,299 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:36:21,299 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:36:21,299 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:36:21,299 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:36:25,347 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:36:25,348 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-25 23:36:25,348 | ERROR | error_handler | Exception Message: 'Settings' object has no attribute 'get_timeout'
+2026-02-25 23:36:25,348 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-25 23:36:27,667 | INFO | error_handler | This is a test log
+2026-02-25 23:40:49,165 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:40:49,181 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-25 23:40:49,181 | ERROR | error_handler | Exception Message: assert False
+2026-02-25 23:40:49,182 | ERROR | error_handler | Business assertion failed.
+2026-02-25 23:41:38,181 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-25 23:41:38,182 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-25 23:41:38,182 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="61ffebbb3e69f688fabfd018d3e3aa55")>.current_url
+2026-02-25 23:41:38,182 | ERROR | error_handler | Business assertion failed.
+2026-02-25 23:41:40,544 | INFO | error_handler | This is a test log

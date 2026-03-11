@@ -1,0 +1,22 @@
+[
+  {
+    "name": "UI Timeout",
+    "traceRegex": ".*TimeoutException.*"
+  },
+  {
+    "name": "Locator Error",
+    "traceRegex": ".*NoSuchElementException.*"
+  },
+  {
+    "name": "Stale Element",
+    "traceRegex": ".*StaleElementReferenceException.*"
+  },
+  {
+    "name": "Assertion Failure",
+    "traceRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Environment Error",
+    "traceRegex": ".*(ConnectionError|WebDriverException).*"
+  }
+]

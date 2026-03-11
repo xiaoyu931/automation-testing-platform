@@ -1,0 +1,84 @@
+2026-02-23 18:15:58,768 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 18:15:58,768 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 18:15:58,768 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 18:15:58,768 | ERROR | error_handler | Business assertion failed.
+2026-02-23 18:16:28,550 | INFO | error_handler | This is a test log
+2026-02-23 18:22:15,697 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 18:22:15,698 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 18:22:15,698 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 18:22:15,698 | ERROR | error_handler | Business assertion failed.
+2026-02-23 18:22:34,607 | INFO | error_handler | This is a test log
+2026-02-23 18:41:18,428 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 18:41:18,428 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 18:41:18,429 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 18:41:18,429 | ERROR | error_handler | Business assertion failed.
+2026-02-23 18:41:37,195 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 18:41:37,196 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 18:41:37,196 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="8f0d70410b8652ca96ebe46c84280d8b")>.current_url
+2026-02-23 18:41:37,196 | ERROR | error_handler | Business assertion failed.
+2026-02-23 18:41:39,574 | INFO | error_handler | This is a test log
+2026-02-23 19:00:16,975 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 19:00:16,975 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 19:00:16,975 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 19:00:16,975 | ERROR | error_handler | Business assertion failed.
+2026-02-23 19:00:40,846 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 19:00:40,847 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 19:00:40,847 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="766e02c304480fe806909615833e2537")>.current_url
+2026-02-23 19:00:40,847 | ERROR | error_handler | Business assertion failed.
+2026-02-23 19:00:43,249 | INFO | error_handler | This is a test log
+2026-02-23 19:05:40,930 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 19:05:40,930 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 19:05:40,930 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 19:05:40,930 | ERROR | error_handler | Business assertion failed.
+2026-02-23 19:06:03,415 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 19:06:03,415 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 19:06:03,415 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="a0581864c8198abf52c4de59bb804087")>.current_url
+2026-02-23 19:06:03,416 | ERROR | error_handler | Business assertion failed.
+2026-02-23 19:06:05,762 | INFO | error_handler | This is a test log
+2026-02-23 21:58:07,780 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 21:58:07,781 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 21:58:07,781 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 21:58:07,781 | ERROR | error_handler | Business assertion failed.
+2026-02-23 21:58:28,143 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 21:58:28,143 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 21:58:28,143 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="cf483fed05e9a911d372640ed663fd9f")>.current_url
+2026-02-23 21:58:28,144 | ERROR | error_handler | Business assertion failed.
+2026-02-23 21:58:30,540 | INFO | error_handler | This is a test log
+2026-02-23 22:10:09,704 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 22:10:09,704 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 22:10:09,704 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 22:10:09,705 | ERROR | error_handler | Business assertion failed.
+2026-02-23 22:10:30,906 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 22:10:30,906 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 22:10:30,906 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="3183225587a6e4f1f24e5d6ec2142f13")>.current_url
+2026-02-23 22:10:30,907 | ERROR | error_handler | Business assertion failed.
+2026-02-23 22:10:33,320 | INFO | error_handler | This is a test log
+2026-02-23 22:36:32,418 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 22:36:32,419 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 22:36:32,419 | ERROR | error_handler | Exception Message: assert False
+2026-02-23 22:36:32,419 | ERROR | error_handler | Business assertion failed.
+2026-02-23 22:36:59,509 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-23 22:36:59,510 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-23 22:36:59,510 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.chrome.webdriver.WebDriver (session="874da7b69eb47105c6836cb680d1cfcc")>.current_url
+2026-02-23 22:36:59,510 | ERROR | error_handler | Business assertion failed.
+2026-02-23 22:37:01,835 | INFO | error_handler | This is a test log

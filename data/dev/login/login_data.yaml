@@ -1,0 +1,21 @@
+login_cases:
+
+  - username: standard_user
+    password: secret_sauce
+    expected: true
+
+  - username: locked_out_user
+    password: secret_sauce
+    expected: false
+
+  - username: standard_user
+    password: wrong_password
+    expected: false
+
+  - username: ""
+    password: secret_sauce
+    expected: false
+
+  - username: standard_user
+    password: ""
+    expected: false

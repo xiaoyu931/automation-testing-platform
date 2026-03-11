@@ -1,0 +1,13 @@
+inventory_cases:
+
+  - username: standard_user
+    password: secret_sauce
+    expected_count: 6
+
+  - username: standard_user
+    password: secret_sauce
+    expected_count: 6
+
+  - username: standard_user
+    password: secret_sauce
+    expected_count: 6

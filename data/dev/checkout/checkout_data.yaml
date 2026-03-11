@@ -1,0 +1,29 @@
+checkout_cases:
+
+  - username: standard_user
+    password: secret_sauce
+    first_name: John
+    last_name: Doe
+    zip: 12345
+    expected_message: "Thank you for your order!"
+
+  - username: standard_user
+    password: secret_sauce
+    first_name: ""
+    last_name: Doe
+    zip: 12345
+    expected_message: "Error: First Name is required"
+
+  - username: standard_user
+    password: secret_sauce
+    first_name: John
+    last_name: ""
+    zip: 12345
+    expected_message: "Error: Last Name is required"
+
+  - username: standard_user
+    password: secret_sauce
+    first_name: John
+    last_name: Doe
+    zip: ""
+    expected_message: "Error: Postal Code is required"

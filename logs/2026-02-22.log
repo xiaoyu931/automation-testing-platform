@@ -1,0 +1,57 @@
+2026-02-22 20:20:07,880 | INFO | error_handler | This is a test log
+2026-02-22 20:21:24,541 | INFO | error_handler | This is a test log
+2026-02-22 20:21:42,054 | INFO | error_handler | This is a test log
+2026-02-22 20:25:07,308 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 20:25:07,309 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 20:25:07,309 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 20:25:07,309 | ERROR | error_handler | Business assertion failed.
+2026-02-22 20:25:36,829 | INFO | error_handler | This is a test log
+2026-02-22 20:31:14,313 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 20:31:14,314 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 20:31:14,314 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 20:31:14,314 | ERROR | error_handler | Business assertion failed.
+2026-02-22 20:31:43,937 | INFO | error_handler | This is a test log
+2026-02-22 20:32:25,190 | INFO | error_handler | This is a test log
+2026-02-22 20:33:38,863 | INFO | error_handler | This is a test log
+2026-02-22 20:37:39,699 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 20:37:39,699 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 20:37:39,700 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 20:37:39,700 | ERROR | error_handler | Business assertion failed.
+2026-02-22 20:38:11,262 | INFO | error_handler | This is a test log
+2026-02-22 20:44:16,142 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 20:44:16,142 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 20:44:16,143 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 20:44:16,143 | ERROR | error_handler | Business assertion failed.
+2026-02-22 20:44:39,694 | INFO | error_handler | This is a test log
+2026-02-22 20:46:13,273 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 20:46:13,273 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 20:46:13,273 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 20:46:13,274 | ERROR | error_handler | Business assertion failed.
+2026-02-22 20:46:37,896 | INFO | error_handler | This is a test log
+2026-02-22 21:20:08,927 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 21:20:08,929 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 21:20:08,929 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 21:20:08,930 | ERROR | error_handler | Business assertion failed.
+2026-02-22 21:20:39,977 | INFO | error_handler | This is a test log
+2026-02-22 21:49:42,425 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 21:49:42,427 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 21:49:42,427 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 21:49:42,427 | ERROR | error_handler | Business assertion failed.
+2026-02-22 21:50:30,784 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 21:50:30,784 | ERROR | error_handler | Exception Type: AttributeError
+2026-02-22 21:50:30,784 | ERROR | error_handler | Exception Message: 'NoneType' object has no attribute 'is_displayed'
+2026-02-22 21:50:30,784 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-22 21:51:44,122 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-22 21:51:44,123 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-22 21:51:44,123 | ERROR | error_handler | Exception Message: assert False
+2026-02-22 21:51:44,123 | ERROR | error_handler | Business assertion failed.
+2026-02-22 21:52:14,217 | INFO | error_handler | This is a test log

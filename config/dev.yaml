@@ -1,0 +1,5 @@
+base_url: "https://www.saucedemo.com/"
+timeout: 10
+browser: "chrome"
+success_threshold: 80
+data_dir: dev

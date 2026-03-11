@@ -1,0 +1,70 @@
+2026-03-06 11:02:01,782 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-06 11:02:01,783 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-06 11:02:09,304 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-06 11:04:04,036 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-06 11:04:04,036 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-06 11:04:15,039 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-06 11:04:21,303 | ERROR | error_handler | Test Failed
+2026-03-06 11:04:21,303 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-06 11:04:21,303 | ERROR | error_handler | Exception Message: assert False
+2026-03-06 11:04:21,303 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-06 11:04:21,440 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260306_110421.png
+2026-03-06 11:04:28,309 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 11:04:46,447 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 11:05:03,802 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 11:05:38,938 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 11:05:39,116 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry1_20260306_110538.png
+2026-03-06 11:05:50,320 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 11:05:50,459 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry2_20260306_110550.png
+2026-03-06 11:05:50,459 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-06 11:05:50,510 | ERROR | error_handler | Test Failed
+2026-03-06 11:05:50,510 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-06 11:05:50,510 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-06 11:05:50,510 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-06 11:05:50,652 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260306_110550.png
+2026-03-06 14:11:26,043 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-06 14:11:26,043 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-06 14:11:35,423 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-06 14:11:42,094 | ERROR | error_handler | Test Failed
+2026-03-06 14:11:42,094 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-06 14:11:42,094 | ERROR | error_handler | Exception Message: assert False
+2026-03-06 14:11:42,094 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-06 14:11:42,219 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260306_141142.png
+2026-03-06 14:11:50,270 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:12:07,993 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:12:28,125 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:12:55,146 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 14:12:55,280 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry1_20260306_141255.png
+2026-03-06 14:13:06,569 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 14:13:06,685 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry2_20260306_141306.png
+2026-03-06 14:13:06,686 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-06 14:13:06,709 | ERROR | error_handler | Test Failed
+2026-03-06 14:13:06,710 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-06 14:13:06,710 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-06 14:13:06,710 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-06 14:13:06,812 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260306_141306.png
+2026-03-06 14:48:27,734 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-06 14:48:27,734 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-06 14:48:36,316 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-06 14:48:42,873 | ERROR | error_handler | Test Failed
+2026-03-06 14:48:42,873 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-06 14:48:42,873 | ERROR | error_handler | Exception Message: assert False
+2026-03-06 14:48:42,873 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-06 14:48:43,010 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260306_144842.png
+2026-03-06 14:48:50,328 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:49:07,717 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:49:25,685 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-06 14:49:53,936 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 14:50:05,283 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-06 14:50:05,407 | ERROR | automation | [Retry] tests.test_open_saucedemo::test_login_success failed after 2 attempts
+2026-03-06 14:50:05,420 | ERROR | error_handler | Test Failed
+2026-03-06 14:50:05,421 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-06 14:50:05,421 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-06 14:50:05,421 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-06 14:50:05,550 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260306_145005.png

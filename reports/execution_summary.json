@@ -1,0 +1,63 @@
+{
+    "env": "dev",
+    "browser": "chrome",
+    "total": 23,
+    "passed": 20,
+    "failed": 3,
+    "skipped": 0,
+    "total_duration": 246.62,
+    "success_rate": 86.96,
+    "average_duration": 4.03,
+    "slowest_cases": [
+        {
+            "module": "tests.test_checkout",
+            "case": "test_checkout[test_data0]",
+            "duration": 12.67
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[test_data3]",
+            "duration": 11.83
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[test_data1]",
+            "duration": 11.62
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[test_data2]",
+            "duration": 11.33
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[test_data4]",
+            "duration": 11.31
+        }
+    ],
+    "module_success_rate": {
+        "tests.test_add_to_cart": "100.0%",
+        "tests.test_assertion_failure": "0.0%",
+        "tests.test_checkout": "100.0%",
+        "tests.test_element_failure": "0.0%",
+        "tests.test_inventory": "100.0%",
+        "tests.test_login": "100.0%",
+        "tests.test_logout": "100.0%",
+        "tests.test_remove_from_cart": "100.0%",
+        "tests.test_timeout_failure": "0.0%"
+    },
+    "top_failed_cases": [
+        {
+            "case": "tests.test_assertion_failure::test_assertion_failure",
+            "count": 1
+        },
+        {
+            "case": "tests.test_element_failure::test_element_failure",
+            "count": 1
+        },
+        {
+            "case": "tests.test_timeout_failure::test_timeout_failure",
+            "count": 1
+        }
+    ]
+}

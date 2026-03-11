@@ -1,0 +1,5 @@
+base_url: "https://www.saucedemo.com/"
+timeout: 20
+browser: "edge"
+success_threshold: 90
+data_dir: stage

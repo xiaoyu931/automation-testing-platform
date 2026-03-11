@@ -1,0 +1,68 @@
+2026-02-27 21:06:00,131 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:06:00,132 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-27 21:06:00,132 | ERROR | error_handler | Exception Message: assert False
+2026-02-27 21:06:00,132 | ERROR | error_handler | Business assertion failed.
+2026-02-27 21:06:04,611 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Test retry
+2026-02-27 21:06:05,631 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Test retry
+2026-02-27 21:06:05,631 | ERROR | automation | [Retry] click failed after 2 attempts
+2026-02-27 21:06:05,662 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:06:05,663 | ERROR | error_handler | Exception Type: Exception
+2026-02-27 21:06:05,663 | ERROR | error_handler | Exception Message: Test retry
+2026-02-27 21:06:05,663 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-27 21:06:09,871 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Test retry
+2026-02-27 21:06:10,892 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Test retry
+2026-02-27 21:06:10,892 | ERROR | automation | [Retry] click failed after 2 attempts
+2026-02-27 21:06:10,900 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:06:10,900 | ERROR | error_handler | Exception Type: Exception
+2026-02-27 21:06:10,901 | ERROR | error_handler | Exception Message: Test retry
+2026-02-27 21:06:10,901 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-27 21:06:15,036 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Test retry
+2026-02-27 21:06:16,057 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Test retry
+2026-02-27 21:06:16,057 | ERROR | automation | [Retry] click failed after 2 attempts
+2026-02-27 21:06:16,063 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:06:16,064 | ERROR | error_handler | Exception Type: Exception
+2026-02-27 21:06:16,064 | ERROR | error_handler | Exception Message: Test retry
+2026-02-27 21:06:16,064 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-27 21:06:23,962 | WARNING | automation | [Retry] click failed (attempt 1/2) -> Test retry
+2026-02-27 21:06:24,982 | WARNING | automation | [Retry] click failed (attempt 2/2) -> Test retry
+2026-02-27 21:06:24,982 | ERROR | automation | [Retry] click failed after 2 attempts
+2026-02-27 21:06:24,988 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:06:24,988 | ERROR | error_handler | Exception Type: Exception
+2026-02-27 21:06:24,989 | ERROR | error_handler | Exception Message: Test retry
+2026-02-27 21:06:24,989 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-27 21:06:27,290 | INFO | error_handler | This is a test log
+2026-02-27 21:12:31,760 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:12:31,760 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-27 21:12:31,760 | ERROR | error_handler | Exception Message: assert False
+2026-02-27 21:12:31,760 | ERROR | error_handler | Business assertion failed.
+2026-02-27 21:13:08,706 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:13:08,706 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-27 21:13:08,706 | ERROR | error_handler | Exception Message: assert 'inventory WANXY' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.edge.webdriver.WebDriver (session="793c1fd3d00581fa73b1fe14f9e961ed")>.current_url
+2026-02-27 21:13:08,706 | ERROR | error_handler | Business assertion failed.
+2026-02-27 21:13:11,081 | INFO | error_handler | This is a test log
+2026-02-27 21:15:36,569 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:15:36,569 | ERROR | error_handler | Exception Type: Exception
+2026-02-27 21:15:36,569 | ERROR | error_handler | Exception Message: Random failure
+2026-02-27 21:15:36,569 | ERROR | error_handler | Unexpected exception occurred.
+2026-02-27 21:17:20,647 | WARNING | automation | [Retry] test_flaky failed (attempt 1/2) -> Random failure
+2026-02-27 21:20:23,544 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:20:23,545 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-27 21:20:23,545 | ERROR | error_handler | Exception Message: assert False
+2026-02-27 21:20:23,545 | ERROR | error_handler | Business assertion failed.
+2026-02-27 21:21:13,460 | INFO | error_handler | This is a test log
+2026-02-27 21:28:20,169 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-27 21:28:20,169 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-27 21:28:20,169 | ERROR | error_handler | Exception Message: assert False
+2026-02-27 21:28:20,169 | ERROR | error_handler | Business assertion failed.
+2026-02-27 21:29:10,486 | INFO | error_handler | This is a test log

@@ -1,0 +1,27 @@
+execution_time,test_name,module,status,duration,failure_type
+3/10/2026 0:23,test_add_to_cart[test_data2],test_add_to_cart,passed,1.185,
+3/10/2026 0:23,test_inventory[test_data0],test_inventory,passed,1.657,
+3/10/2026 0:23,test_login[test_data1],test_login,passed,11.617,
+3/10/2026 0:23,test_element_failure,test_element_failure,broken,1.395,Locator Error
+3/10/2026 0:23,test_add_to_cart[test_data1],test_add_to_cart,passed,1.034,
+3/10/2026 0:23,test_remove_from_cart[test_data1],test_remove_from_cart,passed,1.335,
+3/10/2026 0:23,test_remove_from_cart[test_data0],test_remove_from_cart,passed,1.464,
+3/10/2026 0:23,test_login[test_data3],test_login,passed,11.599,
+3/10/2026 0:23,test_checkout[test_data1],test_checkout,passed,2.426,
+3/10/2026 0:23,test_checkout[test_data2],test_checkout,passed,2.44,
+3/10/2026 0:23,test_checkout[test_data3],test_checkout,passed,1.914,
+3/10/2026 0:23,test_add_to_cart[test_data0],test_add_to_cart,passed,2.29,
+3/10/2026 0:23,test_inventory[test_data1],test_inventory,passed,1.475,
+3/10/2026 0:23,test_logout[test_data0],test_logout,passed,6.477,
+3/10/2026 0:23,test_assertion_failure,test_assertion_failure,failed,1.561,Assertion Failure
+3/10/2026 0:23,test_element_failure,test_element_failure,broken,2.877,Locator Error
+3/10/2026 0:23,test_login[test_data4],test_login,passed,12.214,
+3/10/2026 0:23,test_logout[test_data1],test_logout,passed,2.537,
+3/10/2026 0:23,test_timeout_failure,test_timeout_failure,broken,2.473,UI Timeout
+3/10/2026 0:23,test_checkout[test_data0],test_checkout,passed,12.33,
+3/10/2026 0:23,test_timeout_failure,test_timeout_failure,broken,2.55,UI Timeout
+3/10/2026 0:23,test_remove_from_cart[test_data2],test_remove_from_cart,passed,1.157,
+3/10/2026 0:23,test_assertion_failure,test_assertion_failure,failed,0.763,Assertion Failure
+3/10/2026 0:23,test_inventory[test_data2],test_inventory,passed,1.057,
+3/10/2026 0:23,test_login[test_data2],test_login,passed,11.572,
+3/10/2026 0:23,test_login[test_data0],test_login,passed,0.859,

@@ -1,0 +1,46 @@
+2026-03-05 20:58:34,505 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-05 20:58:34,507 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-05 20:58:41,842 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-05 20:58:49,364 | ERROR | error_handler | Test Failed
+2026-03-05 20:58:49,364 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-05 20:58:49,364 | ERROR | error_handler | Exception Message: assert False
+2026-03-05 20:58:49,364 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-05 20:58:49,479 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260305_205849.png
+2026-03-05 20:58:55,994 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 20:59:13,285 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 20:59:31,188 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 20:59:56,224 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-05 20:59:56,359 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry1_20260305_205956.png
+2026-03-05 21:00:07,745 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-05 21:00:07,856 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry2_20260305_210007.png
+2026-03-05 21:00:07,856 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-05 21:00:07,933 | ERROR | error_handler | Test Failed
+2026-03-05 21:00:07,933 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-05 21:00:07,933 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-05 21:00:07,933 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-05 21:00:08,066 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260305_210007.png
+2026-03-05 21:14:51,101 | INFO | automation | [ASSERT PASS] Cart badge validation
+2026-03-05 21:14:51,101 | INFO | automation | [ASSERT PASS] Cart items validation
+2026-03-05 21:14:59,278 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-05 21:15:06,391 | ERROR | error_handler | Test Failed
+2026-03-05 21:15:06,391 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-05 21:15:06,391 | ERROR | error_handler | Exception Message: assert False
+2026-03-05 21:15:06,391 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-05 21:15:06,546 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_fail_demo_test_fail_20260305_211506.png
+2026-03-05 21:15:14,080 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 21:15:31,637 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 21:15:49,000 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-05 21:16:33,893 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-05 21:16:34,034 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry1_20260305_211633.png
+2026-03-05 21:16:45,244 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: [TIMEOUT_ERROR] Wait timeout
+
+2026-03-05 21:16:45,378 | ERROR | automation | Screenshot saved: reports\screenshots\core.base_page_input_retry2_20260305_211645.png
+2026-03-05 21:16:45,378 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-05 21:16:45,392 | ERROR | error_handler | Test Failed
+2026-03-05 21:16:45,392 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-05 21:16:45,392 | ERROR | error_handler | Exception Message: Message: [TIMEOUT_ERROR] Wait timeout
+2026-03-05 21:16:45,392 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-05 21:16:45,535 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_open_saucedemo_test_login_success_20260305_211645.png

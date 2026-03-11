@@ -1,0 +1,454 @@
+2026-03-01 13:33:51,814 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:34:12,197 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:34:29,068 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:34:36,098 | ERROR | automation | [ASSERT FAIL] Login success URL validation
+2026-03-01 13:34:36,228 | ERROR | error_handler | Test Failed
+2026-03-01 13:34:36,228 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-01 13:34:36,228 | ERROR | error_handler | Exception Message: Login success URL validation
+2026-03-01 13:34:36,228 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-01 13:36:12,324 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:36:30,454 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:36:47,028 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:36:55,816 | ERROR | automation | [ASSERT FAIL] Login success URL validation
+2026-03-01 13:36:55,947 | ERROR | error_handler | Test Failed
+2026-03-01 13:36:55,947 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-01 13:36:55,948 | ERROR | error_handler | Exception Message: Login success URL validation
+2026-03-01 13:36:55,948 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-01 13:39:22,727 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:39:33,922 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:39:33,923 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-01 13:39:34,094 | ERROR | error_handler | Test Failed
+2026-03-01 13:39:34,095 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-01 13:39:34,095 | ERROR | error_handler | Exception Message: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:39:34,095 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-01 13:39:52,584 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:03,793 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:03,794 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-01 13:40:03,802 | ERROR | error_handler | Test Failed
+2026-03-01 13:40:03,803 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-01 13:40:03,803 | ERROR | error_handler | Exception Message: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:03,803 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-01 13:40:20,485 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:31,682 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:31,682 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-01 13:40:31,692 | ERROR | error_handler | Test Failed
+2026-03-01 13:40:31,692 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-01 13:40:31,692 | ERROR | error_handler | Exception Message: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:31,692 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-01 13:40:48,495 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:59,673 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:59,674 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-01 13:40:59,681 | ERROR | error_handler | Test Failed
+2026-03-01 13:40:59,681 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-01 13:40:59,683 | ERROR | error_handler | Exception Message: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 13:40:59,683 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-01 13:44:43,110 | ERROR | automation | [ASSERT FAIL] Login result validation | actual = False, expected = True
+2026-03-01 13:44:43,220 | ERROR | error_handler | Test Failed
+2026-03-01 13:44:43,220 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-01 13:44:43,220 | ERROR | error_handler | Exception Message: Login result validation | actual = False, expected = True
+2026-03-01 13:44:43,220 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-01 13:45:00,549 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:45:17,907 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:45:25,310 | ERROR | automation | [ASSERT FAIL] Login success URL validation
+2026-03-01 13:45:25,315 | ERROR | error_handler | Test Failed
+2026-03-01 13:45:25,315 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-01 13:45:25,315 | ERROR | error_handler | Exception Message: Login success URL validation
+2026-03-01 13:45:25,315 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-01 13:53:03,467 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-03-01 13:53:47,575 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:54:04,686 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:54:21,273 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 13:54:28,244 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-03-01 13:59:30,140 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-03-01 14:01:54,487 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-03-01 14:22:27,940 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:22:44,549 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:23:01,122 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:23:37,573 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:23:54,464 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:24:10,967 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:25:28,875 | WARNING | automation | [Retry] input failed (attempt 1/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 14:25:40,086 | WARNING | automation | [Retry] input failed (attempt 2/2) -> Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 14:25:40,086 | ERROR | automation | [Retry] input failed after 2 attempts
+2026-03-01 14:25:40,207 | ERROR | error_handler | Test Failed
+2026-03-01 14:25:40,207 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-01 14:25:40,208 | ERROR | error_handler | Exception Message: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf17dd3
+	0xf17e14
+	0xd21db0
+	0xd6c20a
+	0xd6c4ab
+	0xdade32
+	0xd8ea84
+	0xdab621
+	0xd8e7d6
+	0xd60049
+	0xd60e04
+	0x1176924
+	0x1171bf7
+	0x118f5a0
+	0xf30f58
+	0xf3891d
+	0xf20648
+	0xf20812
+	0xf0a21a
+	0x75e85d49
+	0x7789d83b
+	0x7789d7c1
+
+2026-03-01 14:25:40,208 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-01 14:26:08,124 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:26:24,685 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-01 14:26:42,207 | INFO | automation | [ASSERT PASS] Login result validation

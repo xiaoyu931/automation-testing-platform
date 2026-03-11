@@ -1,0 +1,135 @@
+2026-03-09 23:38:06,027 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:06,133 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:06,155 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:06,304 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:38:06,387 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-09 23:38:13,173 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:13,255 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:13,276 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:13,398 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:38:13,492 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-09 23:38:19,893 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:20,019 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:20,050 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:20,224 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:38:20,342 | INFO | automation | [ASSERT PASS] Cart count validation
+2026-03-09 23:38:27,346 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:27,429 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:27,452 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:27,723 | ERROR | error_handler | Test Failed
+2026-03-09 23:38:27,723 | ERROR | error_handler | Exception Type: AssertionError
+2026-03-09 23:38:27,723 | ERROR | error_handler | Exception Message: Intentional assertion failure
+2026-03-09 23:38:27,723 | ERROR | error_handler | [ASSERTION_ERROR] Business logic failed
+2026-03-09 23:38:27,896 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_assertion_failure_test_assertion_failure_20260309_233827.png
+2026-03-09 23:38:34,333 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:34,497 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:34,527 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:34,868 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:38:34,970 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-09 23:38:35,062 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-09 23:38:35,205 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-09 23:38:35,276 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-09 23:38:35,347 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-09 23:38:35,368 | INFO | automation | Click element: ('id', 'continue')
+2026-03-09 23:38:45,783 | INFO | automation | Click element: ('id', 'finish')
+2026-03-09 23:38:45,908 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-09 23:38:53,659 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:38:53,764 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:38:53,788 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:38:53,984 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:38:54,111 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-09 23:38:54,227 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-09 23:38:54,383 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-09 23:38:54,472 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-09 23:38:54,556 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-09 23:38:54,581 | INFO | automation | Click element: ('id', 'continue')
+2026-03-09 23:38:54,686 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-09 23:39:02,572 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:02,655 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:02,676 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:02,809 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:39:02,928 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-09 23:39:03,038 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-09 23:39:03,232 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-09 23:39:03,337 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-09 23:39:03,451 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-09 23:39:03,476 | INFO | automation | Click element: ('id', 'continue')
+2026-03-09 23:39:03,612 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-09 23:39:13,120 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:13,212 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:13,234 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:13,414 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:39:13,549 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-09 23:39:13,647 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-09 23:39:13,838 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-09 23:39:13,926 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-09 23:39:14,004 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-09 23:39:14,031 | INFO | automation | Click element: ('id', 'continue')
+2026-03-09 23:39:14,169 | INFO | automation | [ASSERT PASS] Checkout validation
+2026-03-09 23:39:24,011 | ERROR | error_handler | Test Failed
+2026-03-09 23:39:24,011 | ERROR | error_handler | Exception Type: NoSuchElementException
+2026-03-09 23:39:24,011 | ERROR | error_handler | Exception Message: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="element_not_exist"]"}
+2026-03-09 23:39:24,011 | ERROR | error_handler | [LOCATOR_ERROR] Element not found
+2026-03-09 23:39:24,142 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_element_failure_test_element_failure_20260309_233924.png
+2026-03-09 23:39:32,834 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:32,922 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:32,946 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:33,081 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-09 23:39:40,259 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:40,347 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:40,370 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:40,489 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-09 23:39:47,226 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:47,340 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:47,371 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:47,516 | INFO | automation | [ASSERT PASS] Inventory count validation
+2026-03-09 23:39:54,623 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:39:54,729 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:39:54,770 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:39:54,898 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-09 23:40:02,017 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:40:02,114 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:40:02,150 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:40:12,411 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-09 23:40:20,651 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:40:20,770 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:40:20,796 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:40:30,995 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-09 23:40:38,884 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:40:39,017 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:40:39,045 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:40:49,478 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-09 23:40:58,087 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:40:58,201 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:40:58,237 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:08,586 | INFO | automation | [ASSERT PASS] Login result validation
+2026-03-09 23:41:21,388 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:41:21,518 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:41:21,549 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:21,721 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-09 23:41:22,352 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-09 23:41:30,244 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:41:30,366 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:41:30,391 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:30,562 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
+2026-03-09 23:41:31,183 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')
+2026-03-09 23:41:38,541 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:41:38,653 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:41:38,679 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:38,857 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:41:38,961 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-09 23:41:45,794 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:41:45,896 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:41:45,923 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:46,072 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:41:46,173 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-09 23:41:52,796 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-09 23:41:52,897 | INFO | automation | Input text into ('id', 'password')
+2026-03-09 23:41:52,919 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-09 23:41:53,084 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-09 23:41:53,199 | INFO | automation | [ASSERT PASS] Cart validation
+2026-03-09 23:42:01,586 | ERROR | error_handler | Test Failed
+2026-03-09 23:42:01,586 | ERROR | error_handler | Exception Type: TimeoutException
+2026-03-09 23:42:01,586 | ERROR | error_handler | Exception Message: Message: 
+2026-03-09 23:42:01,586 | ERROR | error_handler | [TIMEOUT_ERROR] Wait timeout
+2026-03-09 23:42:01,705 | ERROR | automation | Screenshot saved: reports\screenshots\tests.test_timeout_failure_test_timeout_failure_20260309_234201.png

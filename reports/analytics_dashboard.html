@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Test Analytics Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+font-family:Arial;
+margin:40px;
+background:#f5f5f5;
+}
+
+h1{
+color:#333;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:10px;
+border-radius:8px;
+box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+display:inline-block;
+width:200px;
+text-align:center;
+}
+
+.chart-container{
+width:700px;
+margin-top:40px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+th{
+background:#4CAF50;
+color:white;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<h1>Test Analytics Dashboard</h1>
+
+<div class="card">
+<h2>Total Tests</h2>
+<p>23</p>
+</div>
+
+<div class="card">
+<h2>Passed</h2>
+<p>20</p>
+</div>
+
+<div class="card">
+<h2>Failed</h2>
+<p>3</p>
+</div>
+
+<div class="card">
+<h2>Success Rate</h2>
+<p>86.96%</p>
+</div>
+
+<div class="card">
+<h2>Avg Duration</h2>
+<p>4.03s</p>
+</div>
+
+<div class="card">
+<h2>Flaky Tests</h2>
+<p>0</p>
+</div>
+
+
+<h2>Test Status Distribution</h2>
+
+<div class="chart-container">
+<canvas id="statusChart"></canvas>
+</div>
+
+
+<h2>Module Stability</h2>
+
+<div class="chart-container">
+<canvas id="moduleChart"></canvas>
+</div>
+
+
+<h2>Slowest Test Cases</h2>
+
+<div class="chart-container">
+<canvas id="slowChart"></canvas>
+</div>
+
+
+<h2>Success Rate Trend</h2>
+
+<div class="chart-container">
+<canvas id="trendChart"></canvas>
+</div>
+
+
+<h2>Slowest Test Cases Table</h2>
+
+<table>
+
+<tr>
+<th>Module</th>
+<th>Case</th>
+<th>Duration</th>
+</tr>
+
+<tr>
+<td>tests.test_checkout</td>
+<td>test_checkout[test_data0]</td>
+<td>12.67s</td>
+</tr>
+
+<tr>
+<td>tests.test_login</td>
+<td>test_login[test_data3]</td>
+<td>11.83s</td>
+</tr>
+
+<tr>
+<td>tests.test_login</td>
+<td>test_login[test_data1]</td>
+<td>11.62s</td>
+</tr>
+
+<tr>
+<td>tests.test_login</td>
+<td>test_login[test_data2]</td>
+<td>11.33s</td>
+</tr>
+
+<tr>
+<td>tests.test_login</td>
+<td>test_login[test_data4]</td>
+<td>11.31s</td>
+</tr>
+</table>
+<h2>Module Success Rate</h2>
+
+<table>
+
+<tr>
+<th>Module</th>
+<th>Success Rate</th>
+</tr>
+
+<tr>
+<td>tests.test_add_to_cart</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_assertion_failure</td>
+<td>0.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_checkout</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_element_failure</td>
+<td>0.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_inventory</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_login</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_logout</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_remove_from_cart</td>
+<td>100.0%</td>
+</tr>
+
+<tr>
+<td>tests.test_timeout_failure</td>
+<td>0.0%</td>
+</tr>
+</table>
+
+<script>
+
+// pass / fail pie
+new Chart(
+document.getElementById('statusChart'),
+{
+type:'pie',
+data:{
+labels:['Passed','Failed'],
+datasets:[{
+data:[20,3],
+backgroundColor:['#4CAF50','#F44336']
+}]
+}
+}
+);
+
+
+// module stability
+new Chart(
+document.getElementById('moduleChart'),
+{
+type:'bar',
+data:{
+labels:['tests.test_add_to_cart', 'tests.test_assertion_failure', 'tests.test_checkout', 'tests.test_element_failure', 'tests.test_inventory', 'tests.test_login', 'tests.test_logout', 'tests.test_remove_from_cart', 'tests.test_timeout_failure'],
+datasets:[{
+label:'Success Rate',
+data:[100.0, 0.0, 100.0, 0.0, 100.0, 100.0, 100.0, 100.0, 0.0],
+backgroundColor:'#2196F3'
+}]
+},
+options:{
+scales:{
+y:{
+beginAtZero:true,
+max:100
+}
+}
+}
+}
+);
+
+
+// slow tests
+new Chart(
+document.getElementById('slowChart'),
+{
+type:'bar',
+data:{
+labels:['test_checkout[test_data0]', 'test_login[test_data3]', 'test_login[test_data1]', 'test_login[test_data2]', 'test_login[test_data4]'],
+datasets:[{
+label:'Duration (s)',
+data:[12.67, 11.83, 11.62, 11.33, 11.31],
+backgroundColor:'#FF9800'
+}]
+}
+}
+);
+
+
+// success trend
+new Chart(
+document.getElementById('trendChart'),
+{
+type:'line',
+data:{
+labels:['2026-03-07 09:34:48', '2026-03-07 10:28:30', '2026-03-07 10:47:26', '2026-03-08 13:50:57', '2026-03-08 14:08:16', '2026-03-08 14:19:06', '2026-03-08 14:23:58', '2026-03-08 14:26:47', '2026-03-08 14:30:36', '2026-03-08 14:31:41', '2026-03-08 14:37:49', '2026-03-08 14:39:03', '2026-03-08 14:42:04', '2026-03-09 23:42:03', '2026-03-10 22:27:48', '2026-03-11 09:17:15'],
+datasets:[{
+label:'Success Rate',
+data:[71.43, 69.57, 60.87, 70.0, 85.0, 85.0, 0, 100.0, 100.0, 0.0, 0.0, 0.0, 0.0, 86.96, 86.96, 86.96],
+borderColor:'#4CAF50',
+fill:false
+}]
+}
+}
+);
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+2026-02-28 13:16:32,778 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-28 13:16:32,778 | ERROR | error_handler | Exception Type: TimeoutException
+2026-02-28 13:16:32,779 | ERROR | error_handler | Exception Message: Message: timeout: Timed out receiving message from renderer: 29.096
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7e8cb6815
+	0x7ff7e8cb6874
+	0x7ff7e8ffad8a
+	0x7ff7e89fd88d
+	0x7ff7e89fd6e5
+	0x7ff7e89fb7e1
+	0x7ff7e89fc03f
+	0x7ff7e8a068e0
+	0x7ff7e8a17a3d
+	0x7ff7e8a1d20a
+	0x7ff7e89fc9d8
+	0x7ff7e89fc6ee
+	0x7ff7e8a177db
+	0x7ff7e8a8f3b1
+	0x7ff7e8a49a1c
+	0x7ff7e8a48c76
+	0x7ff7e8a49843
+	0x7ff7e8b10474
+	0x7ff7e8b0c913
+	0x7ff7e8b1cfd3
+	0x7ff7e8cd0ef8
+	0x7ff7e8cd97d6
+	0x7ff7e8cbde54
+	0x7ff7e8cbdf99
+	0x7ff7e8cabdd2
+	0x7ff934eee8d7
+	0x7ff9367cc40c
+
+2026-02-28 13:16:32,780 | ERROR | error_handler | UI wait timeout occurred.
+2026-02-28 13:16:37,938 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:16:52,454 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:17:06,778 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:17:10,960 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-02-28 13:17:13,139 | INFO | error_handler | This is a test log
+2026-02-28 13:21:41,556 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-28 13:21:41,558 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-28 13:21:41,558 | ERROR | error_handler | Exception Message: assert False
+2026-02-28 13:21:41,558 | ERROR | error_handler | Business assertion failed.
+2026-02-28 13:21:50,884 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:22:05,421 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:22:19,674 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:22:24,140 | INFO | automation | [ASSERT PASS] URL contains 'inventory'
+2026-02-28 13:22:26,298 | INFO | automation | This is a test log
+2026-02-28 13:28:43,518 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-28 13:28:43,518 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-28 13:28:43,518 | ERROR | error_handler | Exception Message: assert False
+2026-02-28 13:28:43,518 | ERROR | error_handler | Business assertion failed.
+2026-02-28 13:28:50,035 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:29:06,893 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:29:23,626 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:29:30,097 | ERROR | automation | [ASSERT FAIL] Login success URL validation
+2026-02-28 13:29:30,104 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-28 13:29:30,104 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-28 13:29:30,105 | ERROR | error_handler | Exception Message: Login success URL validation
+2026-02-28 13:29:30,105 | ERROR | error_handler | Business assertion failed.
+2026-02-28 13:29:32,376 | INFO | automation | This is a test log
+2026-02-28 13:33:22,395 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:33:39,782 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:33:56,605 | INFO | automation | [ASSERT PASS] Login result validation
+2026-02-28 13:34:03,116 | ERROR | automation | [ASSERT FAIL] Login success URL validation
+2026-02-28 13:34:03,222 | ERROR | error_handler | Test Failed
+NoneType: None
+2026-02-28 13:34:03,222 | ERROR | error_handler | Exception Type: AssertionError
+2026-02-28 13:34:03,222 | ERROR | error_handler | Exception Message: Login success URL validation
+2026-02-28 13:34:03,222 | ERROR | error_handler | Business assertion failed.
+2026-02-28 13:34:05,482 | INFO | automation | This is a test log

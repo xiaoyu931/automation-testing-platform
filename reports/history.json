@@ -1,0 +1,132 @@
+{
+    "runs": [
+        {
+            "time": "2026-03-07 09:34:48",
+            "total": 7,
+            "passed": 5,
+            "failed": 2,
+            "success_rate": 71.43,
+            "avg_duration": 8.37
+        },
+        {
+            "time": "2026-03-07 10:28:30",
+            "total": 23,
+            "passed": 16,
+            "failed": 7,
+            "success_rate": 69.57,
+            "avg_duration": 8.42
+        },
+        {
+            "time": "2026-03-07 10:47:26",
+            "total": 23,
+            "passed": 14,
+            "failed": 9,
+            "success_rate": 60.87,
+            "avg_duration": 6.79
+        },
+        {
+            "time": "2026-03-08 13:50:57",
+            "total": 20,
+            "passed": 14,
+            "failed": 6,
+            "success_rate": 70.0,
+            "avg_duration": 6.65
+        },
+        {
+            "time": "2026-03-08 14:08:16",
+            "total": 20,
+            "passed": 17,
+            "failed": 3,
+            "success_rate": 85.0,
+            "avg_duration": 4.82
+        },
+        {
+            "time": "2026-03-08 14:19:06",
+            "total": 20,
+            "passed": 17,
+            "failed": 3,
+            "success_rate": 85.0,
+            "avg_duration": 4.15
+        },
+        {
+            "time": "2026-03-08 14:23:58",
+            "total": 0,
+            "passed": 0,
+            "failed": 0,
+            "success_rate": 0,
+            "avg_duration": 0
+        },
+        {
+            "time": "2026-03-08 14:26:47",
+            "total": 4,
+            "passed": 4,
+            "failed": 0,
+            "success_rate": 100.0,
+            "avg_duration": 4.4
+        },
+        {
+            "time": "2026-03-08 14:30:36",
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "success_rate": 100.0,
+            "avg_duration": 3.89
+        },
+        {
+            "time": "2026-03-08 14:31:41",
+            "total": 3,
+            "passed": 0,
+            "failed": 3,
+            "success_rate": 0.0,
+            "avg_duration": 1.41
+        },
+        {
+            "time": "2026-03-08 14:37:49",
+            "total": 3,
+            "passed": 0,
+            "failed": 3,
+            "success_rate": 0.0,
+            "avg_duration": 1.38
+        },
+        {
+            "time": "2026-03-08 14:39:03",
+            "total": 3,
+            "passed": 0,
+            "failed": 3,
+            "success_rate": 0.0,
+            "avg_duration": 1.56
+        },
+        {
+            "time": "2026-03-08 14:42:04",
+            "total": 3,
+            "passed": 0,
+            "failed": 3,
+            "success_rate": 0.0,
+            "avg_duration": 1.54
+        },
+        {
+            "time": "2026-03-09 23:42:03",
+            "total": 23,
+            "passed": 20,
+            "failed": 3,
+            "success_rate": 86.96,
+            "avg_duration": 4.16
+        },
+        {
+            "time": "2026-03-10 22:27:48",
+            "total": 23,
+            "passed": 20,
+            "failed": 3,
+            "success_rate": 86.96,
+            "avg_duration": 3.95
+        },
+        {
+            "time": "2026-03-11 09:17:15",
+            "total": 23,
+            "passed": 20,
+            "failed": 3,
+            "success_rate": 86.96,
+            "avg_duration": 4.03
+        }
+    ]
+}
