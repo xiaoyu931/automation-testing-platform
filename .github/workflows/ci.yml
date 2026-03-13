@@ -25,4 +25,23 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest -m "not failure"
+        pytest -m "not failure" --alluredir=reports/allure-results
+
+    - name: Install Allure
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y default-jre
+        wget https://github.com/allure-framework/allure2/releases/download/2.29.0/allure-2.29.0.tgz
+        tar -zxvf allure-2.29.0.tgz
+        sudo mv allure-2.29.0 /opt/allure
+        sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+
+    - name: Generate Allure Report
+      run: |
+        allure generate reports/allure-results --clean -o reports/allure-report
+
+    - name: Upload Allure Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: allure-report
+        path: reports/allure-report
