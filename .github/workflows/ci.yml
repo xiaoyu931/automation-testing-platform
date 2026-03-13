@@ -25,6 +25,7 @@ jobs:
 
     - name: Run tests
       run: |
+        rm -rf reports/allure-results
         pytest -m "not failure" --alluredir=reports/allure-results
 
     - name: Install Allure
@@ -39,6 +40,12 @@ jobs:
     - name: Generate Allure Report
       run: |
         allure generate reports/allure-results --clean -o reports/allure-report
+        
+    - name: Deploy report to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: reports/allure-report
 
     - name: Upload Allure Report
       uses: actions/upload-artifact@v4
