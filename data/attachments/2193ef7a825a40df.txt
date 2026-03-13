@@ -1,0 +1,4 @@
+INFO     automation:base_page.py:109 Input text into ('id', 'user-name')
+INFO     automation:base_page.py:109 Input text into ('id', 'password')
+INFO     automation:base_page.py:74 Safe click: ('id', 'login-button')
+INFO     automation:assert_utils.py:27 [ASSERT PASS] Login result validation
