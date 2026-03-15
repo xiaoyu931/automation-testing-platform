@@ -12,10 +12,10 @@ jobs:
     steps:
 
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: "3.11"
 
@@ -26,7 +26,7 @@ jobs:
     - name: Run tests
       run: |
         rm -rf reports/allure-results
-        pytest -m "smoke or regression" --alluredir=reports/allure-results
+        pytest -m "not failure" --alluredir=reports/allure-results
 
     - name: Install Allure
       run: |
@@ -41,23 +41,17 @@ jobs:
       run: |
         allure generate reports/allure-results --clean -o reports/allure-report
 
-    - name: Deploy report to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: reports/allure-report
-
-    - name: Upload Allure Report
-      uses: actions/upload-artifact@v4
-      with:
-        name: allure-report
-        path: reports/allure-report
+    - name: Generate Analytics Dashboard
+      run: |
+        python utils/analytics_dashboard.py
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: test-data
-        path: reports/*.csv
+        name: automation-reports
+        path: |
+          reports/allure-report
+          reports/*.csv
 
     - name: Commit CSV files
       run: |
@@ -67,6 +61,11 @@ jobs:
         git add reports/test_execution.csv
         git add reports/test_history.csv
 
-        git commit -m "update csv files" || echo "No changes"
-
+        git commit -m "update test analytics csv" || echo "No changes"
         git push
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./reports

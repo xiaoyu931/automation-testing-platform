@@ -2,30 +2,30 @@ import json
 import os
 
 
+def load_json(path):
+    """
+    安全读取JSON
+    """
+    if not os.path.exists(path):
+        return {}
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def generate_dashboard():
 
     summary_path = "reports/execution_summary.json"
     flaky_path = "reports/flaky_report.json"
     history_path = "reports/history.json"
 
-    if not os.path.exists(summary_path):
+    summary = load_json(summary_path)
+    flaky_data = load_json(flaky_path)
+    history = load_json(history_path)
+
+    if not summary:
         print("execution_summary.json not found")
         return
-
-    with open(summary_path, "r", encoding="utf-8") as f:
-        summary = json.load(f)
-
-    flaky_data = {}
-
-    if os.path.exists(flaky_path):
-        with open(flaky_path, "r", encoding="utf-8") as f:
-            flaky_data = json.load(f)
-
-    history = {"runs": []}
-
-    if os.path.exists(history_path):
-        with open(history_path, "r", encoding="utf-8") as f:
-            history = json.load(f)
 
     # ======================
     # KPI
@@ -38,36 +38,54 @@ def generate_dashboard():
     avg_duration = summary.get("average_duration", 0)
 
     flaky_tests = flaky_data.get("flaky_tests", 0)
+    flaky_rate = flaky_data.get("flaky_rate", 0)
+
+    run_count = len(history.get("runs", []))
 
     # ======================
     # Module success
     # ======================
 
-    modules = list(summary.get("module_success_rate", {}).keys())
+    modules = json.dumps(
+        list(summary.get("module_success_rate", {}).keys())
+    )
 
-    rates = [
+    rates = json.dumps([
         float(v.replace("%", ""))
         for v in summary.get("module_success_rate", {}).values()
-    ]
+    ])
 
     # ======================
     # Slow tests
     # ======================
 
-    slow_cases = [
-        c["case"] for c in summary.get("slowest_cases", [])
-    ]
+    slow_cases = json.dumps([
+        c["case"]
+        for c in summary.get("slowest_cases", [])
+    ])
 
-    slow_durations = [
-        c["duration"] for c in summary.get("slowest_cases", [])
-    ]
+    slow_durations = json.dumps([
+        c["duration"]
+        for c in summary.get("slowest_cases", [])
+    ])
 
     # ======================
     # History trend
     # ======================
 
-    times = [r["time"] for r in history.get("runs", [])]
-    success_rates = [r["success_rate"] for r in history.get("runs", [])]
+    times = json.dumps([
+        r["time"]
+        for r in history.get("runs", [])
+    ])
+
+    success_rates = json.dumps([
+        r["success_rate"]
+        for r in history.get("runs", [])
+    ])
+
+    # ======================
+    # HTML
+    # ======================
 
     html = f"""
 <!DOCTYPE html>
@@ -75,7 +93,7 @@ def generate_dashboard():
 
 <head>
 
-<title>Test Analytics Dashboard</title>
+<title>Automation Testing Analytics Platform</title>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -130,7 +148,7 @@ color:white;
 
 <body>
 
-<h1>Test Analytics Dashboard</h1>
+<h1>Automation Testing Analytics Platform</h1>
 
 <div class="card">
 <h2>Total Tests</h2>
@@ -160,6 +178,16 @@ color:white;
 <div class="card">
 <h2>Flaky Tests</h2>
 <p>{flaky_tests}</p>
+</div>
+
+<div class="card">
+<h2>Flaky Rate</h2>
+<p>{flaky_rate}%</p>
+</div>
+
+<div class="card">
+<h2>Total Runs</h2>
+<p>{run_count}</p>
 </div>
 
 
