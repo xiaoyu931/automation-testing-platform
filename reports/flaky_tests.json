@@ -1,9 +1,3 @@
 {
-    "flaky_tests": [
-        {
-            "case": "test_slow_response",
-            "retry": 1,
-            "type": "retry_pass"
-        }
-    ]
+    "flaky_tests": []
 }

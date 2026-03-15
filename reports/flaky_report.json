@@ -1,12 +1,6 @@
 {
     "total_tests": 22,
-    "flaky_tests": 1,
-    "flaky_rate": 4.55,
-    "unstable_tests": [
-        {
-            "case": "test_slow_response",
-            "retry": 1,
-            "type": "retry_pass"
-        }
-    ]
+    "flaky_tests": 0,
+    "flaky_rate": 0.0,
+    "unstable_tests": []
 }

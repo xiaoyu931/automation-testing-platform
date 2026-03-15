@@ -1,54 +1,49 @@
 {
     "env": "dev",
     "browser": "chrome",
-    "total": 23,
+    "total": 22,
     "passed": 22,
-    "failed": 1,
+    "failed": 0,
     "skipped": 0,
-    "total_duration": 212.12,
+    "total_duration": 79.61,
     "success_rate": 100.0,
-    "average_duration": 3.77,
+    "average_duration": 3.17,
     "slowest_cases": [
-        {
-            "module": "tests.test_login",
-            "case": "test_login[login failed with empty username]",
-            "duration": 12.17
-        },
         {
             "module": "tests.test_checkout",
             "case": "test_checkout[checkout success]",
-            "duration": 12.0
+            "duration": 11.43
         },
         {
             "module": "tests.test_login",
-            "case": "test_login[login failed for locked user]",
-            "duration": 11.84
-        },
-        {
-            "module": "tests.test_login",
-            "case": "test_login[login failed with empty password]",
-            "duration": 11.73
+            "case": "test_login[login failed with empty username]",
+            "duration": 10.75
         },
         {
             "module": "tests.test_login",
             "case": "test_login[login failed with wrong password]",
-            "duration": 11.63
+            "duration": 10.74
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[login failed for locked user]",
+            "duration": 10.73
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[login failed with empty password]",
+            "duration": 10.73
         }
     ],
     "module_success_rate": {
         "tests.test_add_to_cart": "100.0%",
         "tests.test_checkout": "100.0%",
         "tests.test_flaky_demo": "100.0%",
-        "tests.test_flaky_demo2": "50.0%",
+        "tests.test_flaky_demo2": "100.0%",
         "tests.test_inventory": "100.0%",
         "tests.test_login": "100.0%",
         "tests.test_logout": "100.0%",
         "tests.test_remove_from_cart": "100.0%"
     },
-    "top_failed_cases": [
-        {
-            "case": "tests.test_flaky_demo2::test_slow_response",
-            "count": 1
-        }
-    ]
+    "top_failed_cases": []
 }
