@@ -1,3 +1,0 @@
-[33mWARNING [0m automation:retry.py:35 [Retry] test_slow_response failed (attempt 1/2) -> Service response too slow
-[33mWARNING [0m automation:retry.py:35 [Retry] test_slow_response failed (attempt 2/2) -> Service response too slow
-[1m[31mERROR   [0m automation:retry.py:43 [Retry] test_slow_response failed after 2 attempts

@@ -1,0 +1,14 @@
+{
+    "env": "dev",
+    "browser": "chrome",
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "total_duration": 0.02,
+    "success_rate": 0,
+    "average_duration": 0,
+    "slowest_cases": [],
+    "module_success_rate": {},
+    "top_failed_cases": []
+}

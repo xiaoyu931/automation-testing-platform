@@ -5,7 +5,8 @@ import time
 from datetime import datetime
 import shutil
 from collections import defaultdict
-
+from utils.test_result_exporter import export_results
+from utils.test_history_exporter import export_history
 from config.settings import Settings
 from core.execution_tracker import retry_tracker, flaky_tests
 from utils.analytics_dashboard import generate_dashboard
@@ -263,6 +264,8 @@ def pytest_sessionfinish(session, exitstatus):
     # -------- 生成 Dashboard --------
 
     generate_dashboard()
+    export_results()
+    export_history()
 
 
 def pytest_addoption(parser):

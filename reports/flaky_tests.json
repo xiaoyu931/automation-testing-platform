@@ -1,11 +1,6 @@
 {
     "flaky_tests": [
         {
-            "case": "test_random_flaky",
-            "retry": 1,
-            "type": "retry_pass"
-        },
-        {
             "case": "test_slow_response",
             "retry": 1,
             "type": "retry_pass"

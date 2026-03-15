@@ -71,3 +71,26 @@ run_id,execution_time,test_name,module,status,duration
 3,3/11/2026 9:17,test_login[test_data0],test_login,passed,1.862
 3,3/11/2026 9:17,test_add_to_cart[test_data1],test_add_to_cart,passed,1.597
 3,3/11/2026 9:17,test_inventory[test_data1],test_inventory,passed,1.306
+4,3/15/2026 22:36,login success with valid user,test_login,passed,0.888
+4,3/15/2026 22:36,login failed with wrong password,test_login,passed,11.629
+4,3/15/2026 22:36,test_inventory[inventory count validation],test_inventory,passed,1.313
+4,3/15/2026 22:36,test_logout[logout successfully after login],test_logout,passed,2.468
+4,3/15/2026 22:36,test_inventory[inventory list should display 6 products],test_inventory,passed,1.398
+4,3/15/2026 22:36,test_remove_from_cart[add same product again],test_remove_from_cart,passed,0.996
+4,3/15/2026 22:36,test_remove_from_cart[add product verify cart count],test_remove_from_cart,passed,1.851
+4,3/15/2026 22:36,login failed with empty username,test_login,passed,12.175
+4,3/15/2026 22:36,test_logout[verify logout returns to login page],test_logout,passed,1.992
+4,3/15/2026 22:36,test_checkout[checkout success],test_checkout,passed,12
+4,3/15/2026 22:36,test_add_to_cart[add product verify cart count],test_add_to_cart,passed,1.083
+4,3/15/2026 22:36,test_checkout[missing last name],test_checkout,passed,2.055
+4,3/15/2026 22:36,test_add_to_cart[add same product again],test_add_to_cart,passed,2.028
+4,3/15/2026 22:36,test_remove_from_cart[add product to cart],test_remove_from_cart,passed,0.997
+4,3/15/2026 22:36,test_slow_response,test_flaky_demo2,passed,0.153
+4,3/15/2026 22:36,test_slow_response,test_flaky_demo2,broken,4.469
+4,3/15/2026 22:36,test_checkout[missing first name],test_checkout,passed,1.668
+4,3/15/2026 22:36,test_checkout[missing postal code],test_checkout,passed,1.607
+4,3/15/2026 22:36,test_add_to_cart[add product to cart],test_add_to_cart,passed,1.441
+4,3/15/2026 22:36,test_inventory[verify product list loaded correctly],test_inventory,passed,0.977
+4,3/15/2026 22:36,login failed with empty password,test_login,passed,11.726
+4,3/15/2026 22:36,test_random_flaky,test_flaky_demo,passed,0
+4,3/15/2026 22:36,login failed for locked user,test_login,passed,11.84

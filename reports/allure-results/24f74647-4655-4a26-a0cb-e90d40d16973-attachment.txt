@@ -1,3 +1,0 @@
-[33mWARNING [0m automation:retry.py:35 [Retry] test_random_flaky failed (attempt 1/2) -> Random flaky failure
-[33mWARNING [0m automation:retry.py:35 [Retry] test_random_flaky failed (attempt 2/2) -> Random flaky failure
-[1m[31mERROR   [0m automation:retry.py:43 [Retry] test_random_flaky failed after 2 attempts
