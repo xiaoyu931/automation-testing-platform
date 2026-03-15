@@ -1,21 +1,26 @@
 login_cases:
 
-  - username: standard_user
+  - case_name: login success with valid user
+    username: standard_user
     password: secret_sauce
     expected: true
 
-  - username: locked_out_user
+  - case_name: login failed for locked user
+    username: locked_out_user
     password: secret_sauce
     expected: false
 
-  - username: standard_user
+  - case_name: login failed with wrong password
+    username: standard_user
     password: wrong_password
     expected: false
 
-  - username: ""
+  - case_name: login failed with empty username
+    username: ""
     password: secret_sauce
     expected: false
 
-  - username: standard_user
+  - case_name: login failed with empty password
+    username: standard_user
     password: ""
     expected: false

@@ -8,6 +8,7 @@ from flows.logout_flow import LogoutFlow
 @allure.tag("logout")
 
 @pytest.mark.logout
+@pytest.mark.regression
 def test_logout(driver, test_data, settings):
 
     login = LoginFlow(driver, settings)

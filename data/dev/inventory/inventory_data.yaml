@@ -1,13 +1,16 @@
 inventory_cases:
 
-  - username: standard_user
+  - case_name: inventory list should display 6 products
+    username: standard_user
     password: secret_sauce
     expected_count: 6
 
-  - username: standard_user
+  - case_name: inventory count validation
+    username: standard_user
     password: secret_sauce
     expected_count: 6
 
-  - username: standard_user
+  - case_name: verify product list loaded correctly
+    username: standard_user
     password: secret_sauce
     expected_count: 6

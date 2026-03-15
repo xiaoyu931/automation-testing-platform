@@ -10,7 +10,6 @@ from assertions.assert_utils import AssertUtils
 @allure.epic("CRM Automation System")
 @allure.feature("Shopping Cart")
 @allure.story("Add Product To Cart")
-
 @pytest.mark.cart
 @pytest.mark.regression
 def test_add_to_cart(driver, test_data, settings):

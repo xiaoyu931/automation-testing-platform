@@ -1,5 +1,6 @@
 failed_cases:
 
-  - username: standard_user
+  - case_name: login should fail for demo purpose
+    username: standard_user
     password: secret_sauce
     expected: false

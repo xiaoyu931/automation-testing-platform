@@ -1,0 +1,7 @@
+2026-03-13 15:40:01,923 | WARNING | automation | [Retry] test_random_flaky failed (attempt 1/2) -> Random flaky failure
+2026-03-13 15:40:02,930 | WARNING | automation | [Retry] test_random_flaky failed (attempt 2/2) -> Random flaky failure
+2026-03-13 15:40:02,930 | ERROR | automation | [Retry] test_random_flaky failed after 2 attempts
+2026-03-13 15:40:03,041 | ERROR | error_handler | Test Failed
+2026-03-13 15:40:03,041 | ERROR | error_handler | Exception Type: Exception
+2026-03-13 15:40:03,041 | ERROR | error_handler | Exception Message: Random flaky failure
+2026-03-13 15:40:03,041 | ERROR | error_handler | [UNKNOWN_ERROR] Unhandled exception

@@ -3,6 +3,165 @@
   <component name="ChangeListManager">
     <list default="true" id="05eb7010-e1c2-4dda-bca9-ab68f526f676" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/core/retry.py" afterPath="$PROJECT_DIR$/core/retry.py" />
+      <change beforePath="$PROJECT_DIR$/data/dev/cart/cart_data.yaml" afterPath="$PROJECT_DIR$/data/dev/cart/cart_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml" afterPath="$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/failed/failed_data.yaml" afterPath="$PROJECT_DIR$/data/dev/failed/failed_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml" afterPath="$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/login/login_data.yaml" afterPath="$PROJECT_DIR$/data/dev/login/login_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/logout/logout_data.yaml" afterPath="$PROJECT_DIR$/data/dev/logout/logout_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/data/dev/remove/remove_data.yaml" afterPath="$PROJECT_DIR$/data/dev/remove/remove_data.yaml" />
+      <change beforePath="$PROJECT_DIR$/hooks/data_hook.py" afterPath="$PROJECT_DIR$/hooks/data_hook.py" />
+      <change beforePath="$PROJECT_DIR$/hooks/execution_hook.py" afterPath="$PROJECT_DIR$/hooks/execution_hook.py" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" afterPath="$PROJECT_DIR$/pytest.ini" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/00939b4d-489c-40d4-8da7-a546353f3711-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/01a031da-f75c-4a81-b4ea-08bbdef63aa0-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/037c4e44-ccdb-4cf2-88c5-7d7e1c3f9781-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/03caec86-6b67-4a7d-b343-e89280b4d1a3-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/04150886-dd61-4c18-85b6-dac9c89404f2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/09016043-2820-4664-a210-b509242cc869-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/0a000b61-8ea4-4dba-89d6-6c66fb5ad9d8-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/0bb77859-6095-484b-9b28-95dbd30bd028-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/0e8c0fb3-de1b-4c1a-9299-d681416edc1b-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/0ed3f269-00e1-405b-8641-3bb6564fb8f4-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/0ef04920-e427-41a9-9156-b58a3af6c8f3-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/113f5b06-3e45-4417-bea7-26d9f82fb1d2-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/16cef013-e0cb-495b-8006-3db3b888b56d-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/181e705a-2015-49b1-8251-2ea87792f98c-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/1956c5d9-c32d-447c-9060-314b7decbfea-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/1af99f8e-924e-40cd-9e1b-a86014d179e7-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/23fb34a2-9738-464e-acea-f0a5068bbeb6-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/249e529a-6fe8-47d9-a1ba-b50ca198a48a-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/25234c11-f592-4117-bdde-cb0828ca97c5-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2824c143-4387-47c1-b895-c40a8d67c2d8-attachment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2a45fe42-dcc9-47f3-be10-08568308cb2c-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2b0823bb-5393-4adb-b0a8-fa6fcb55e72b-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2b9a09d2-fe5f-41fc-9d0a-6a77c22bd06f-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2bb6cbdf-9661-4e92-b5d5-81bc50568bf1-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2c6eb963-7b32-4bea-a536-00ff783c8edd-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/2ce8f0ce-0917-482b-9c6f-7b48332487d2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/31580a51-59b3-483e-a0c5-851e22ba9bb2-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/33926cea-9ba0-4dd4-a2d1-e957c02670a0-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/365d18be-7781-423e-b5ac-5ec1e6baa0a2-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/369ca14d-b060-4af0-be4a-9fa68ae6b98d-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/374eacdc-2e6f-4daf-9f75-00c262d6ec00-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3757ad6d-3bb7-4629-b7ea-09d75d0162ce-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/394d7fe4-2acb-43ad-8549-12598f5943fc-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3a4613ef-3129-45c7-be16-f73da3efc890-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3b06237d-3bdf-4c64-aea1-e3f58c713d05-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3b2005a3-335e-4b32-91ef-f51d0e5c0e27-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3d647585-bc52-40f1-8041-cc6e9ef87860-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/3dd88c73-7523-4f61-a23c-24f6ee0a6e24-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/4469a4ec-a162-468e-a3bb-51a9b8039aec-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/4625c4eb-1e0e-4ca8-a2b4-bf46e7c9fa72-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/46fc5960-2d94-46f7-b7cf-aad90e7434f7-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/49312bb0-daa2-4dc4-b527-17420b9914f5-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/4a81bdf5-3374-4064-a17b-e072e3ee6d93-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/4f1eac32-57ad-4d64-8e46-1f3537d070a1-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/50562bc3-696e-4689-94aa-a88b5d71ce52-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/54015dcf-10e4-455f-a826-91c0847d9e1a-attachment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/5518cf98-0511-486b-8d3d-451d6885ee91-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/56be1899-0b6f-4447-8590-4541a3dca7c1-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/577d33e5-94fa-4220-a440-75ef05f8bfcb-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/58a5b080-e1a4-4d86-a224-222bcb52feb4-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/599fc5d7-31cc-4af1-98d4-975f74a9814d-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/59dd099b-1a4a-4f85-bf1e-788cadf91797-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/5a27c3f1-0b4c-44ed-a422-acacf6fbbb13-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/5bbeac60-bc0a-455c-abf6-bfef59eb9083-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/5fbb20da-63b4-40e5-829b-1f0020b7c4ec-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/66b8ce4b-5bd7-48ea-827d-cea4ca38ee2c-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/6c5e7f0b-e55c-4298-ba2a-29240a3aae94-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/6effe805-c7b3-44e1-9760-331b669490a1-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/6f347796-2082-4f90-888f-562b042e95c2-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/6fac8672-fee2-49d2-aac8-acecb8827036-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/73a17013-23c3-44da-9f26-fd78e964f4b3-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/73ee280e-eabc-4fa0-ad25-89081bcf04f8-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/742738fb-a05b-498b-ab1c-ad34c7d454d1-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/7552f82a-8a34-4a73-8074-14d44d82195a-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/79cc9b28-ac35-405c-97a4-afbc7184f1de-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/7dfbb59a-8985-48a3-a25b-4efe180d89cf-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/7ec47b7b-86f6-4801-9a94-cc82f77f723a-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/80fb3aa2-b987-4f18-95df-a382a6b56149-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/814a13c2-c3d6-4f41-9e07-75bd2c882044-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/814e508f-f685-4b72-b98d-992bb257efdb-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/84a1a8a2-3c43-4d2c-9062-04a2930a9a66-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/85775568-e281-4909-9727-df26449f8028-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/89eaa706-56c1-4853-a950-d5a4989d7d31-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/8b7700e4-2369-497a-90b7-0b780b18bff6-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/904e62ed-f8c9-4658-9d5e-f5e798d2808b-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/9085e1bd-f73d-4f77-a8ea-49517d2150b0-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/94df1df0-08eb-4102-b828-83512d47a1fa-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/98e52513-9be1-476f-bee3-23311e4953ee-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/9a36bb81-d356-4984-a055-86821825f0c6-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/9a41308e-571f-4fd6-9696-af265260389c-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/9ad4fc09-3ede-4fb0-8f43-3878f9e0bc4a-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/9b5c9532-86e8-4a15-a168-268d6d99341c-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/a0280182-603c-4f6c-b5d8-d6d0bf88d0de-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/a3b10b0a-45c3-4d5a-8d37-b3a69c85229a-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/a7565201-b608-4451-9ddd-9bbd57e4313d-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/aa156b05-3063-4c4d-af97-ec37c2024931-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/aac7a61b-2e76-432b-acac-5972b6d391b9-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/aad1585e-561b-46df-95a6-9635e6a46d54-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/aeceb595-6b10-4995-9452-8e77c103fecf-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b088c97b-585b-4764-b7e2-8538973cd8e7-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b0971c07-3726-47d6-b94a-07b768fbd745-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b1abdd59-e159-4442-8056-dc021dd5acbf-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b26ce37d-edde-4296-8432-35f6e46f316e-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b379d203-154c-41f8-9540-2f2d302a6daa-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b4bb14d3-6b74-4f6f-ba1c-41d1869a7e41-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/b7f470c8-4bda-4f86-b630-ea244b046e76-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ba428c4a-fc4a-4cc6-809d-e61e86918dbc-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/bcdaef78-58c2-43ed-a31b-382d6d646c34-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/bdc7278f-fe8a-447f-9209-eebc29b8dcd8-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/be2059e4-3bec-46f3-b9b4-df03df76f7d2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/beff43c8-1183-4d9b-9cab-352dd45af2ed-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/bf3a888d-8799-4813-9237-44468e521de6-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/bfa4a2e1-b4ad-4726-89ec-9c968c290e0d-attachment.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/bfdba85a-636c-475a-951c-b3f00300357d-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c1d85888-587c-4b5c-86eb-3c1c76399918-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c300ba9a-b0f0-4ea4-abec-9fae6bf14ae2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c4f7c693-ceec-412c-8e17-5343b40a6abe-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c547a594-1034-4f07-9aa5-d9359af2346a-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c65eb36d-3634-4f4e-85f7-f29312625532-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c6e8b28f-985a-4bd4-80f5-d6e04c793f2e-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/c93482fb-20eb-4202-ae10-ade13fe47bee-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ce5c3b3d-e678-4031-b680-5649a2de7af6-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/cf0ad4aa-a250-4b0a-b2c4-33370873e894-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/d9c11a60-de4d-4dae-9619-c0a32aa9a7fe-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/da18b797-d283-472b-b9b5-bdfae7df7d9e-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/db1b8e82-b887-45e3-8c7b-e139f3ae4531-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/dd4ff652-6cb2-4264-9ed2-d24706302251-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/dd74a2c1-4edf-41ab-8cdc-080b09dd6ee5-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/de18ec7f-e1e6-4aab-928f-59692a87ec08-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/de6f2af5-ab16-47b3-b81a-6794c679b1e2-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/dfb540a2-f3e5-4123-b84c-209815ee41f2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/dfd222b0-b816-4c91-91bc-b849dfa5dc52-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/e0212441-4e55-47c3-804f-4ebadd3f6da2-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/e114f753-9c0b-4ca5-9ef4-02a6b82958c2-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/e366b8f9-585c-44cb-8999-4844607c0331-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/e671c2f2-8d15-4931-9caf-8602ed1e58be-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ed23eb4e-4742-4be5-a868-28c895b2053b-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ee705012-e1a1-49aa-b15b-63268a277c46-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ef268f2d-7717-440f-8330-7474049847a3-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/ef2c33fa-0614-4e50-91ae-e28c322bc792-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f0815996-f0db-45ea-b9f3-ec0e50a530c6-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f150a513-fbb6-4a59-8ead-ca9509f4b29d-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f32be0c7-2c1a-441f-9f8e-707a278d9464-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f463e1d1-91af-490a-8eea-f6973f4579e7-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f5ba30ff-816e-4b89-a846-ae7f19c58286-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/f8fb7f23-6812-4c8f-af17-2c6b137dd460-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/allure-results/fdeebc17-8c79-43bb-93d8-a5f5af6b214a-attachment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/reports/analytics_dashboard.html" afterPath="$PROJECT_DIR$/reports/analytics_dashboard.html" />
+      <change beforePath="$PROJECT_DIR$/reports/execution_summary.json" afterPath="$PROJECT_DIR$/reports/execution_summary.json" />
+      <change beforePath="$PROJECT_DIR$/reports/flaky_report.json" afterPath="$PROJECT_DIR$/reports/flaky_report.json" />
+      <change beforePath="$PROJECT_DIR$/reports/flaky_tests.json" afterPath="$PROJECT_DIR$/reports/flaky_tests.json" />
+      <change beforePath="$PROJECT_DIR$/reports/history.json" afterPath="$PROJECT_DIR$/reports/history.json" />
+      <change beforePath="$PROJECT_DIR$/tests/test_add_to_cart.py" afterPath="$PROJECT_DIR$/tests/test_add_to_cart.py" />
+      <change beforePath="$PROJECT_DIR$/tests/test_inventory.py" afterPath="$PROJECT_DIR$/tests/test_inventory.py" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" afterPath="$PROJECT_DIR$/tests/test_login.py" />
+      <change beforePath="$PROJECT_DIR$/tests/test_logout.py" afterPath="$PROJECT_DIR$/tests/test_logout.py" />
+      <change beforePath="$PROJECT_DIR$/tests/test_remove_from_cart.py" afterPath="$PROJECT_DIR$/tests/test_remove_from_cart.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,43 +172,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="categories.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reports/categories.json">
+      <file leaf-file-name="retry.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/retry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1457">
-              <caret line="31" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="445">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_result_exporter_v1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/test_result_exporter_v1.py">
+      <file leaf-file-name="test_flaky_demo2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_flaky_demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_export.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_export.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_pipeline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_pipeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="564">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -57,47 +194,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_result_exporter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/test_result_exporter.py">
+      <file leaf-file-name="execution_hook.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hooks/execution_hook.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="568">
+              <caret line="264" column="14" lean-forward="true" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#7856#8277#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_history_exporter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/test_history_exporter.py">
+      <file leaf-file-name="analytics_dashboard.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/analytics_dashboard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5452">
-              <caret line="119" column="45" lean-forward="false" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/driver_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pytest.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="-1976">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,18 +220,18 @@
       <file leaf-file-name="ci.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/ci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="476">
+              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories - Copy.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reports/categories - Copy.json">
+      <file leaf-file-name="execution_tracker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/execution_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="92">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -134,7 +248,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pytest_runtest_makereport</find>
       <find>def data_loader</find>
       <find>DataLoader</find>
       <find>test_data</find>
@@ -153,6 +266,18 @@
       <find>case</find>
       <find>wait_for</find>
       <find>copy</find>
+      <find>success_rate</find>
+      <find>retry_tracker</find>
+      <find>pytest_runtest_logreport</find>
+      <find>for c in case_execution_data</find>
+      <find>total_tests =</find>
+      <find>if retry_count &gt; 0 and final_status == &quot;passed&quot;:</find>
+      <find>retry_tracker[current_test.value] += 1</find>
+      <find>logreport</find>
+      <find>history_file</find>
+      <find>report.when == &quot;call&quot;</find>
+      <find>flaky_tests</find>
+      <find>test_execution</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -167,33 +292,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hooks/__init__.py" />
-        <option value="$PROJECT_DIR$/hooks/retry_hook.py" />
-        <option value="$PROJECT_DIR$/hooks/data_hook.py" />
-        <option value="$PROJECT_DIR$/hooks/screenshot_hook.py" />
-        <option value="$PROJECT_DIR$/core/execution_tracker.py" />
         <option value="$PROJECT_DIR$/hooks/driver_hook.py" />
         <option value="$PROJECT_DIR$/hooks/config_hook.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/tests/test_open_saucedemo.py" />
         <option value="$PROJECT_DIR$/reports/history.json" />
         <option value="$PROJECT_DIR$/utils/analytics_dashboard.py" />
-        <option value="$PROJECT_DIR$/tests/test_add_to_cart.py" />
         <option value="$PROJECT_DIR$/tests/test_checkout.py" />
         <option value="$PROJECT_DIR$/flows/inventory_flow.py" />
         <option value="$PROJECT_DIR$/flows/logout_flow.py" />
-        <option value="$PROJECT_DIR$/tests/test_inventory.py" />
-        <option value="$PROJECT_DIR$/tests/test_remove_from_cart.py" />
-        <option value="$PROJECT_DIR$/tests/test_logout.py" />
         <option value="$PROJECT_DIR$/flows/login_flow.py" />
         <option value="$PROJECT_DIR$/pages/login_page.py" />
-        <option value="$PROJECT_DIR$/tests/test_login.py" />
-        <option value="$PROJECT_DIR$/data/dev/login/login_data.yaml" />
-        <option value="$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml" />
-        <option value="$PROJECT_DIR$/data/dev/cart/cart_data.yaml" />
-        <option value="$PROJECT_DIR$/data/dev/remove/remove_data.yaml" />
-        <option value="$PROJECT_DIR$/data/dev/logout/logout_data.yaml" />
-        <option value="$PROJECT_DIR$/data/dev/failed/failed_data.yaml" />
         <option value="$PROJECT_DIR$/tests/test_fail_demo.py" />
         <option value="$PROJECT_DIR$/tests/test_assertion_failure.py" />
         <option value="$PROJECT_DIR$/tests/test_timeout_failure.py" />
@@ -202,12 +311,9 @@
         <option value="$PROJECT_DIR$/flows/add_to_cart_flow.py" />
         <option value="$PROJECT_DIR$/pages/inventory_page.py" />
         <option value="$PROJECT_DIR$/pages/menu_page.py" />
-        <option value="$PROJECT_DIR$/core/retry.py" />
         <option value="$PROJECT_DIR$/core/base_page.py" />
         <option value="$PROJECT_DIR$/pages/checkout_page.py" />
         <option value="$PROJECT_DIR$/flows/checkout_flow.py" />
-        <option value="$PROJECT_DIR$/hooks/execution_hook.py" />
-        <option value="$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml" />
         <option value="$PROJECT_DIR$/reports/categories.json" />
         <option value="$PROJECT_DIR$/reports/allure-results/categories.json" />
         <option value="$PROJECT_DIR$/utils/run_export.py" />
@@ -216,14 +322,33 @@
         <option value="$PROJECT_DIR$/run_export.py" />
         <option value="$PROJECT_DIR$/utils/test_history_exporter.py" />
         <option value="$PROJECT_DIR$/core/driver_manager.py" />
+        <option value="$PROJECT_DIR$/tests/test_inventory.py" />
+        <option value="$PROJECT_DIR$/tests/test_logout.py" />
+        <option value="$PROJECT_DIR$/tests/test_remove_from_cart.py" />
+        <option value="$PROJECT_DIR$/run_test.sh" />
+        <option value="$PROJECT_DIR$/tests/test_add_to_cart.py" />
+        <option value="$PROJECT_DIR$/tests/test_login.py" />
+        <option value="$PROJECT_DIR$/data/dev/cart/cart_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/failed/failed_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/login/login_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/logout/logout_data.yaml" />
+        <option value="$PROJECT_DIR$/data/dev/remove/remove_data.yaml" />
         <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/tests/test_flaky_demo.py" />
+        <option value="$PROJECT_DIR$/tests/test_flaky_demo2.py" />
+        <option value="$PROJECT_DIR$/run_test.bat" />
+        <option value="$PROJECT_DIR$/hooks/data_hook.py" />
+        <option value="$PROJECT_DIR$/hooks/execution_hook.py" />
+        <option value="$PROJECT_DIR$/core/retry.py" />
         <option value="$PROJECT_DIR$/.github/workflows/ci.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
+    <option name="x" value="-3675" />
+    <option name="y" value="-120" />
     <option name="width" value="1918" />
     <option name="height" value="1006" />
   </component>
@@ -243,6 +368,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,12 +443,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
     <property name="last_opened_file_path" value="C:/AI Agent/AI_Automation/AI-TestOps" />
   </component>
@@ -564,19 +689,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
+    <frame x="-3848" y="-229" width="2210" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20636605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.180176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4275274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4275274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3872093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18737672" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -585,6 +710,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4275274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25348836" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20636605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -596,199 +740,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conftest_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooks/driver_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooks/config_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/analytics_dashboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="329" column="76" lean-forward="false" selection-start-line="329" selection-start-column="76" selection-end-line="329" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_add_to_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flows/inventory_flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_inventory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flows/login_flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1927">
-          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/flow_result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/cart/cart_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/remove/remove_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/logout/logout_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/failed/failed_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Dtest_open_saucedemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Dtest_fail_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flows/add_to_cart_flow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/login/login_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_remove_from_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_timeout_failure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_assertion_failure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/cart_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
           <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_element_failure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -806,27 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/menu_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/retry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2303">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/checkout_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1833">
@@ -841,34 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hooks/execution_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9400">
-          <caret line="209" column="47" lean-forward="false" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/categories - Copy.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="5" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1457">
           <caret line="31" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5452">
           <caret line="119" column="45" lean-forward="false" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -947,24 +843,279 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_assertion_failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1363">
+          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_element_failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_checkout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_inventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_remove_from_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_timeout_failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_add_to_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/cart/cart_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/checkout/checkout_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/failed/failed_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/inventory/inventory_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/logout/logout_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/remove/remove_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/order/order_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dev/login/login_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/menu_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="611">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_flaky_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_flaky_demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/driver_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/screenshot_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/retry_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/data_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/config_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/execution_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/retry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hooks/execution_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="264" column="14" lean-forward="true" selection-start-line="264" selection-start-column="14" selection-end-line="264" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#7856#8277#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/analytics_dashboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1976">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/ci.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
           <folding />
         </state>
       </provider>

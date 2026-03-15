@@ -10,6 +10,7 @@ from assertions.assert_utils import AssertUtils
 @allure.feature("Inventory")
 
 @pytest.mark.inventory
+@pytest.mark.regression
 def test_inventory(driver, test_data, settings):
 
     login = LoginFlow(driver, settings)

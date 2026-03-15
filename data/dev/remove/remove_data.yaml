@@ -1,9 +1,11 @@
 remove_cases:
 
-  - username: standard_user
+  - case_name: remove product from cart
+    username: standard_user
     password: secret_sauce
     expected_cart_count: 0
 
-  - username: standard_user
+  - case_name: verify cart is empty after removing product
+    username: standard_user
     password: secret_sauce
     expected_cart_count: 0

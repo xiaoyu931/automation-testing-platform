@@ -1,13 +1,16 @@
 cart_cases:
 
-  - username: standard_user
+  - case_name: add product to cart
+    username: standard_user
     password: secret_sauce
     expected_cart_count: 1
 
-  - username: standard_user
+  - case_name: add same product again
+    username: standard_user
     password: secret_sauce
     expected_cart_count: 1
 
-  - username: standard_user
+  - case_name: add product verify cart count
+    username: standard_user
     password: secret_sauce
     expected_cart_count: 1

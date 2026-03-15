@@ -52,4 +52,8 @@ def pytest_generate_tests(metafunc):
         f"{module_name}_cases"
     )
 
-    metafunc.parametrize("test_data", data)
+    metafunc.parametrize(
+        "test_data",
+        data,
+        ids=[d.get("case_name", f"{module_name}_{i}") for i, d in enumerate(data)]
+    )

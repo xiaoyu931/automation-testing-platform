@@ -63,32 +63,32 @@ color:white;
 
 <div class="card">
 <h2>Total Tests</h2>
-<p>23</p>
+<p>4</p>
 </div>
 
 <div class="card">
 <h2>Passed</h2>
-<p>20</p>
+<p>2</p>
 </div>
 
 <div class="card">
 <h2>Failed</h2>
-<p>3</p>
+<p>2</p>
 </div>
 
 <div class="card">
 <h2>Success Rate</h2>
-<p>86.96%</p>
+<p>100.0%</p>
 </div>
 
 <div class="card">
 <h2>Avg Duration</h2>
-<p>4.03s</p>
+<p>2.31s</p>
 </div>
 
 <div class="card">
 <h2>Flaky Tests</h2>
-<p>0</p>
+<p>2</p>
 </div>
 
 
@@ -131,33 +131,27 @@ color:white;
 </tr>
 
 <tr>
-<td>tests.test_checkout</td>
-<td>test_checkout[test_data0]</td>
-<td>12.67s</td>
+<td>tests.test_flaky_demo2</td>
+<td>test_slow_response</td>
+<td>5.58s</td>
 </tr>
 
 <tr>
-<td>tests.test_login</td>
-<td>test_login[test_data3]</td>
-<td>11.83s</td>
+<td>tests.test_flaky_demo2</td>
+<td>test_slow_response</td>
+<td>2.64s</td>
 </tr>
 
 <tr>
-<td>tests.test_login</td>
-<td>test_login[test_data1]</td>
-<td>11.62s</td>
+<td>tests.test_flaky_demo</td>
+<td>test_random_flaky</td>
+<td>1.0s</td>
 </tr>
 
 <tr>
-<td>tests.test_login</td>
-<td>test_login[test_data2]</td>
-<td>11.33s</td>
-</tr>
-
-<tr>
-<td>tests.test_login</td>
-<td>test_login[test_data4]</td>
-<td>11.31s</td>
+<td>tests.test_flaky_demo</td>
+<td>test_random_flaky</td>
+<td>0.0s</td>
 </tr>
 </table>
 <h2>Module Success Rate</h2>
@@ -170,48 +164,13 @@ color:white;
 </tr>
 
 <tr>
-<td>tests.test_add_to_cart</td>
-<td>100.0%</td>
+<td>tests.test_flaky_demo</td>
+<td>50.0%</td>
 </tr>
 
 <tr>
-<td>tests.test_assertion_failure</td>
-<td>0.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_checkout</td>
-<td>100.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_element_failure</td>
-<td>0.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_inventory</td>
-<td>100.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_login</td>
-<td>100.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_logout</td>
-<td>100.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_remove_from_cart</td>
-<td>100.0%</td>
-</tr>
-
-<tr>
-<td>tests.test_timeout_failure</td>
-<td>0.0%</td>
+<td>tests.test_flaky_demo2</td>
+<td>50.0%</td>
 </tr>
 </table>
 
@@ -225,7 +184,7 @@ type:'pie',
 data:{
 labels:['Passed','Failed'],
 datasets:[{
-data:[20,3],
+data:[2,2],
 backgroundColor:['#4CAF50','#F44336']
 }]
 }
@@ -239,10 +198,10 @@ document.getElementById('moduleChart'),
 {
 type:'bar',
 data:{
-labels:['tests.test_add_to_cart', 'tests.test_assertion_failure', 'tests.test_checkout', 'tests.test_element_failure', 'tests.test_inventory', 'tests.test_login', 'tests.test_logout', 'tests.test_remove_from_cart', 'tests.test_timeout_failure'],
+labels:['tests.test_flaky_demo', 'tests.test_flaky_demo2'],
 datasets:[{
 label:'Success Rate',
-data:[100.0, 0.0, 100.0, 0.0, 100.0, 100.0, 100.0, 100.0, 0.0],
+data:[50.0, 50.0],
 backgroundColor:'#2196F3'
 }]
 },
@@ -264,10 +223,10 @@ document.getElementById('slowChart'),
 {
 type:'bar',
 data:{
-labels:['test_checkout[test_data0]', 'test_login[test_data3]', 'test_login[test_data1]', 'test_login[test_data2]', 'test_login[test_data4]'],
+labels:['test_slow_response', 'test_slow_response', 'test_random_flaky', 'test_random_flaky'],
 datasets:[{
 label:'Duration (s)',
-data:[12.67, 11.83, 11.62, 11.33, 11.31],
+data:[5.58, 2.64, 1.0, 0.0],
 backgroundColor:'#FF9800'
 }]
 }
@@ -281,10 +240,10 @@ document.getElementById('trendChart'),
 {
 type:'line',
 data:{
-labels:['2026-03-07 09:34:48', '2026-03-07 10:28:30', '2026-03-07 10:47:26', '2026-03-08 13:50:57', '2026-03-08 14:08:16', '2026-03-08 14:19:06', '2026-03-08 14:23:58', '2026-03-08 14:26:47', '2026-03-08 14:30:36', '2026-03-08 14:31:41', '2026-03-08 14:37:49', '2026-03-08 14:39:03', '2026-03-08 14:42:04', '2026-03-09 23:42:03', '2026-03-10 22:27:48', '2026-03-11 09:17:15'],
+labels:['2026-03-13 14:01:27', '2026-03-13 14:12:26', '2026-03-13 14:12:53', '2026-03-13 14:13:27', '2026-03-13 14:18:28', '2026-03-13 14:18:43', '2026-03-13 14:19:31', '2026-03-13 14:20:56', '2026-03-13 14:26:28', '2026-03-13 14:26:45', '2026-03-13 14:27:00', '2026-03-13 14:27:21', '2026-03-13 14:27:49', '2026-03-13 14:28:05', '2026-03-13 14:28:22', '2026-03-13 14:28:43', '2026-03-13 14:35:18', '2026-03-13 14:35:32', '2026-03-13 14:37:40', '2026-03-13 14:37:56', '2026-03-13 14:38:39', '2026-03-13 14:39:09', '2026-03-13 14:39:27', '2026-03-13 14:39:39', '2026-03-13 14:39:57', '2026-03-13 14:41:21', '2026-03-13 14:42:30', '2026-03-13 14:46:16', '2026-03-13 15:01:05', '2026-03-13 15:01:24', '2026-03-13 15:03:59', '2026-03-13 15:05:58', '2026-03-13 15:13:04', '2026-03-13 15:13:25', '2026-03-13 15:13:49', '2026-03-13 15:14:03', '2026-03-13 15:14:57', '2026-03-13 15:18:08', '2026-03-13 15:20:51', '2026-03-13 15:21:58', '2026-03-13 15:28:47', '2026-03-13 15:29:23', '2026-03-13 15:29:48', '2026-03-13 15:30:37', '2026-03-13 15:30:50', '2026-03-13 15:31:08', '2026-03-13 15:32:55', '2026-03-13 15:37:45', '2026-03-13 15:39:58', '2026-03-13 15:40:11'],
 datasets:[{
 label:'Success Rate',
-data:[71.43, 69.57, 60.87, 70.0, 85.0, 85.0, 0, 100.0, 100.0, 0.0, 0.0, 0.0, 0.0, 86.96, 86.96, 86.96],
+data:[66.67, 100.0, 100.0, 50.0, 100.0, 100.0, 50.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 50.0, 100.0, 100.0, 50.0, 50.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 50.0, 100.0, 100.0, 100.0, 100.0, 50.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0],
 borderColor:'#4CAF50',
 fill:false
 }]

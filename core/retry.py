@@ -1,73 +1,62 @@
 import time
 import functools
 from utils.logger import get_logger
-from core.execution_tracker import retry_tracker, current_test
 
 logger = get_logger()
 
-# 接收参数
+
 def retry(times=2, delay=1, exceptions=(Exception,)):
     """
     通用重试装饰器
-    :param times: 重试次数
-    :param delay: 每次重试间隔秒数
-    :param exceptions: 捕获哪些异常,哪些异常才进行重试
+    :param times: 最大尝试次数
+    :param delay: 重试间隔
+    :param exceptions: 捕获异常
     """
-    # 接收被装饰的函数。# 接收函数
+    # 这里：func 就是被装饰的函数，例如：
+    # @retry()
+    # def test_login():
+    # 这里：func = test_login
     def decorator(func):
-        # 让被装饰后的函数，保留原函数的名字、文档、注释等信息。 否则函数会“变成” wrapper
-        @functools.wraps(func)
-        # 真正执行函数的地方。 *args → 位置参数  **kwargs → 关键字参数  保证兼容所有函数  # 执行函数
+
+        @functools.wraps(func) # 保留原函数的名字、注释等信息。否则装饰后函数名会变成： wrapper，而不是原函数名。
         def wrapper(*args, **kwargs):
-
+        # 这是 真正执行函数的地方，*args, **kwargs 表示：支持任何参数。例如；login(user, password)
+            # 记录最后一次异常，如果所有重试都失败，抛出最后一次异常
             last_exception = None
-
+            # 重试循环
             for attempt in range(1, times + 1):
+
                 try:
-                    # 记录当前重试次数
-                    wrapper.current_attempt = attempt
-                    # 尝试执行函数 直接返回结果  不再重试
+                    # 尝试执行函数，如果执行成功，直接返回结果，结束重试
+                    # 这一行代码等价于：
+                    # result = func(*args, **kwargs)
+                    # return result
+                    # 如果 func() 抛异常：就会进入：except
+                    # 如果成功的话，就直接返回了
                     return func(*args, **kwargs)
-                #只捕获指定异常类型。
+
                 except exceptions as e:
 
-                    # ❗ 不重试 AssertionError
                     if isinstance(e, AssertionError):
+                        # 断言失败不要重试
                         raise
-
+                    # 保存最后一次错误。
                     last_exception = e
-                    retry_tracker[current_test.value] += 1
-
+                    # 打印 warning 日志，例如：[Retry] test_login failed (attempt 1/3) -> TimeoutError
                     logger.warning(
                         f"[Retry] {func.__name__} failed "
-                        f"(attempt {attempt}/{times}) "
-                        f"-> {e}"
+                        f"(attempt {attempt}/{times}) -> {e}"
                     )
-                    try:
-                        self_obj = args[0]
-                        driver = getattr(self_obj, "driver", None)
-
-                        if driver:
-                            from utils.screenshot_manager import ScreenshotManager
-                            ScreenshotManager.capture(
-                                driver,
-                                module_name=func.__module__,
-                                case_name=str(current_test),
-                                retry_index=attempt
-                            )
-                    except Exception:
-                        pass
-
+                    # 等待后重试
                     if attempt < times:
                         time.sleep(delay)
-
+            # 所有重试失败，输出：[Retry] test_login failed after 3 attempts
             logger.error(
-                f"[Retry] {current_test.value} failed after {times} attempts"
+                f"[Retry] {func.__name__} failed after {times} attempts"
             )
-
+            # 抛出最后异常，这样测试框架就能识别失败。
             raise last_exception
-
-        # 把原函数 func 替换成 wrapper  本质上，原函数被 wrapper 接管了。
+        # 返回包装后的函数
         return wrapper
-    # 把真正的装饰器函数交出去
+    # 最终形成装饰器
     return decorator

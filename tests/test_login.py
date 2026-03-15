@@ -10,7 +10,7 @@ from assertions.assert_utils import AssertUtils
 @allure.feature("User Authentication")
 @allure.story("Multi-account Login Validation")
 @allure.severity(allure.severity_level.CRITICAL)
-
+@allure.title("{test_data[case_name]}")
 @pytest.mark.login
 @pytest.mark.smoke
 @pytest.mark.regression

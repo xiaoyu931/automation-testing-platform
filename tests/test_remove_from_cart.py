@@ -9,6 +9,7 @@ from assertions.assert_utils import AssertUtils
 @allure.tag("cart")
 
 @pytest.mark.cart
+@pytest.mark.regression
 def test_remove_from_cart(driver, test_data, settings):
 
     login = LoginFlow(driver, settings)

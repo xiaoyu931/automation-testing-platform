@@ -1,0 +1,5 @@
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'user-name')
+[32mINFO    [0m automation:base_page.py:109 Input text into ('id', 'password')
+[32mINFO    [0m automation:base_page.py:74 Safe click: ('id', 'login-button')
+[32mINFO    [0m automation:base_page.py:74 Safe click: ('id', 'react-burger-menu-btn')
+[32mINFO    [0m automation:base_page.py:74 Safe click: ('id', 'logout_sidebar_link')

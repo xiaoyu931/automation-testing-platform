@@ -1,9 +1,11 @@
 logout_cases:
 
-  - username: standard_user
+  - case_name: logout successfully after login
+    username: standard_user
     password: secret_sauce
     expected: true
 
-  - username: standard_user
+  - case_name: verify logout returns to login page
+    username: standard_user
     password: secret_sauce
     expected: true
