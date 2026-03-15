@@ -1,5 +1,0 @@
-2026-03-15 21:19:31,087 | INFO | automation | Input text into ('id', 'user-name')
-2026-03-15 21:19:31,176 | INFO | automation | Input text into ('id', 'password')
-2026-03-15 21:19:31,196 | INFO | automation | Safe click: ('id', 'login-button')
-2026-03-15 21:19:31,314 | INFO | automation | Safe click: ('id', 'react-burger-menu-btn')
-2026-03-15 21:19:31,900 | INFO | automation | Safe click: ('id', 'logout_sidebar_link')

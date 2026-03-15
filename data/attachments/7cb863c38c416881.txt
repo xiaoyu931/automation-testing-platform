@@ -1,0 +1,4 @@
+2026-03-15 21:42:14,667 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-15 21:42:14,739 | INFO | automation | Input text into ('id', 'password')
+2026-03-15 21:42:14,758 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-15 21:42:25,049 | INFO | automation | [ASSERT PASS] Login result validation
