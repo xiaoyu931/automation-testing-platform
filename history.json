@@ -442,12 +442,12 @@
             "flaky_rate": 4.55
         },
         {
-            "time": "2026-03-15 22:16:12",
+            "time": "2026-03-15 22:25:40",
             "total": 22,
             "passed": 22,
             "failed": 0,
             "success_rate": 100.0,
-            "avg_duration": 3.26,
+            "avg_duration": 3.17,
             "flaky_rate": 0.0
         }
     ]
