@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Assertion Failure",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "UI Timeout",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*selenium\\.common\\.exceptions\\.TimeoutException.*"
+  },
+  {
+    "name": "Locator Error",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*selenium\\.common\\.exceptions\\.NoSuchElementException.*"
+  },
+  {
+    "name": "Stale Element",
+    "matchedStatuses": ["broken", "failed"],
+    "traceRegex": ".*StaleElementReferenceException.*"
+  },
+  {
+    "name": "Environment Error",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*ConnectionError.*"
+  },
+  {
+    "name": "Test Data Error",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*(ValueError|KeyError|TypeError).*"
+  },
+  {
+    "name": "Test Data Error",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*(ValueError|KeyError|TypeError).*"
+}
+]

@@ -1,0 +1,5 @@
+INFO     automation:base_page.py:109 Input text into ('id', 'user-name')
+INFO     automation:base_page.py:109 Input text into ('id', 'password')
+INFO     automation:base_page.py:74 Safe click: ('id', 'login-button')
+INFO     automation:base_page.py:74 Safe click: ('id', 'react-burger-menu-btn')
+INFO     automation:base_page.py:74 Safe click: ('id', 'logout_sidebar_link')

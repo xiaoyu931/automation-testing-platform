@@ -1,5 +1,0 @@
-2026-03-15 21:41:16,393 | INFO | automation | Input text into ('id', 'user-name')
-2026-03-15 21:41:16,479 | INFO | automation | Input text into ('id', 'password')
-2026-03-15 21:41:16,500 | INFO | automation | Safe click: ('id', 'login-button')
-2026-03-15 21:41:16,773 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
-2026-03-15 21:41:16,849 | INFO | automation | [ASSERT PASS] Cart count validation
