@@ -1,15 +1,6 @@
 {
     "runs": [
         {
-            "time": "2026-03-13 14:13:27",
-            "total": 3,
-            "passed": 1,
-            "failed": 2,
-            "success_rate": 50.0,
-            "avg_duration": 0.7,
-            "flaky_rate": 0.0
-        },
-        {
             "time": "2026-03-13 14:18:28",
             "total": 2,
             "passed": 2,
@@ -448,6 +439,15 @@
             "failed": 0,
             "success_rate": 100.0,
             "avg_duration": 3.11,
+            "flaky_rate": 0.0
+        },
+        {
+            "time": "2026-03-16 18:58:10",
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "success_rate": 100.0,
+            "avg_duration": 3.56,
             "flaky_rate": 0.0
         }
     ]
