@@ -1,0 +1,12 @@
+2026-03-16 18:43:44,647 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-16 18:43:44,736 | INFO | automation | Input text into ('id', 'password')
+2026-03-16 18:43:44,756 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-16 18:43:44,868 | INFO | automation | Click element: ('id', 'add-to-cart-sauce-labs-backpack')
+2026-03-16 18:43:44,960 | INFO | automation | Click element: ('class name', 'shopping_cart_link')
+2026-03-16 18:43:45,054 | INFO | automation | Click element: ('id', 'checkout')
+2026-03-16 18:43:45,192 | INFO | automation | Input text into ('id', 'first-name')
+2026-03-16 18:43:45,258 | INFO | automation | Input text into ('id', 'last-name')
+2026-03-16 18:43:45,325 | INFO | automation | Input text into ('id', 'postal-code')
+2026-03-16 18:43:45,343 | INFO | automation | Click element: ('id', 'continue')
+2026-03-16 18:43:55,724 | INFO | automation | Click element: ('id', 'finish')
+2026-03-16 18:43:55,786 | INFO | automation | [ASSERT PASS] Checkout validation

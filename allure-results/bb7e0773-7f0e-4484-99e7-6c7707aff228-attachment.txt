@@ -1,0 +1,4 @@
+2026-03-16 18:44:03,731 | INFO | automation | Input text into ('id', 'user-name')
+2026-03-16 18:44:03,820 | INFO | automation | Input text into ('id', 'password')
+2026-03-16 18:44:03,838 | INFO | automation | Safe click: ('id', 'login-button')
+2026-03-16 18:44:03,938 | INFO | automation | [ASSERT PASS] Inventory count validation

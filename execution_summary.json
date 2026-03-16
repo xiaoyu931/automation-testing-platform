@@ -5,33 +5,33 @@
     "passed": 22,
     "failed": 0,
     "skipped": 0,
-    "total_duration": 79.61,
+    "total_duration": 86.77,
     "success_rate": 100.0,
-    "average_duration": 3.17,
+    "average_duration": 3.11,
     "slowest_cases": [
         {
             "module": "tests.test_checkout",
             "case": "test_checkout[checkout success]",
-            "duration": 11.43
-        },
-        {
-            "module": "tests.test_login",
-            "case": "test_login[login failed with empty username]",
-            "duration": 10.75
+            "duration": 11.5
         },
         {
             "module": "tests.test_login",
             "case": "test_login[login failed with wrong password]",
-            "duration": 10.74
+            "duration": 10.76
         },
         {
             "module": "tests.test_login",
             "case": "test_login[login failed for locked user]",
-            "duration": 10.73
+            "duration": 10.76
         },
         {
             "module": "tests.test_login",
             "case": "test_login[login failed with empty password]",
+            "duration": 10.74
+        },
+        {
+            "module": "tests.test_login",
+            "case": "test_login[login failed with empty username]",
             "duration": 10.73
         }
     ],
