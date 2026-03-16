@@ -1,2 +1,0 @@
-Running ENV: dev
-Running Browser: chrome
