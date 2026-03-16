@@ -77,3 +77,9 @@ The automation dashboard shows:
 - Allure Report
 - GitHub Actions
 - Chart.js
+
+# Live Dashboard
+
+Automation testing analytics dashboard:
+
+https://xiaoyu931.github.io/automation-testing-platform/
