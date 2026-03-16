@@ -25,7 +25,6 @@ jobs:
 
     - name: Run tests
       run: |
-        # pytest  --alluredir=reports/allure-results --clean-alluredir
         pytest -m "not failure" --alluredir=reports/allure-results --clean-alluredir
 
     - name: Install Allure
